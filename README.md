@@ -65,6 +65,11 @@ Then run
 ```
 python3 manage.py migrate
 ```
+NOTE: The script might give errors as some packages would be missing on the local device. Please install any missing packages using the following command
+```
+pip3 install <package-name>
+```
+
 And Finally run 
 
 ```
@@ -72,14 +77,26 @@ python3 manage.py runserver
 ```
 Now, you can go to [localhost](http://127.0.0.1:8000/) and access the site
 
-NOTE: The logs are continously stored in a file named "log_simulator" inside the cloned repo. Remember to delete this file
+
+
+### Navigating the site
+
+The Site has an interactive dashboard having different options to operate the site. To start logging you have enter
+the number of nodes and processes and then click on start
+
+This will start logging data into a folder called "log_simulator" present inside your repository.
+
+Now you can click on to any of the buttons given in the dashboard to navigate the site.
+
+### Disclaimer
+ The logs are continously stored in a file named "log_simulator" inside the cloned repo. Remember to delete this file
 after closing the app!
 
 ### Features
 
 * Live Debugging : Owing to the nature of general microservices loggers and the vast amount of logs generated, we have included
 live debugging in our web app which shows the real-time log data to a user for a better understanding of the requests and errors.
-Our App has an inbuilt delay in the processing of requests and thus provides the latest logs to the user in a dynamic table
+Our App has an inbuilt delay (20 secs) in the processing of requests and thus provides the latest logs to the user in a dynamic table
 where S/he can order the data based on any of fields in the table.
 
 * Log Structures Data : We have structured the logs in order to maximize the ease of use of an Administrator to debug
