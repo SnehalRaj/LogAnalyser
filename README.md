@@ -19,10 +19,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+*django
+*python3-tk
+*matplotlib
+*re
+*pandas
 
+Use the following command to install any unmet dependencies
 ```
-Give examples
+sudo apt-get install <package>
+```
+or
+```
+pip3 install <package>
 ```
 
 ### Installing
