@@ -1,4 +1,4 @@
-# CloudInit
+# LogAnalyser
 A repo to host all of the code for Cloud.init.io
 
 Our App, <Placeholder> provides an easy-to-use interface to handle distributed logging in the microservice world. As we all know,
