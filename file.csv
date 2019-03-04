@@ -1,0 +1,14 @@
+Date,Time,Type,Value
+2019-03-03,04:38:44.558909,ERROR,Generated binary file
+2019-03-03,04:38:44.559117,ERROR,Node destroyed
+2019-03-03,04:38:44.559298,DBG,Creating task
+2019-03-03,04:38:44.559837,INFO,Gathering node data
+2019-03-03,04:38:44.560046,DBG,Gathering logs from all nodes
+2019-03-03,04:38:44.560241,INFO,Creating task
+2019-03-03,04:38:44.560417,ERROR,Gathering node data
+2019-03-03,04:38:44.561000,INFO,Gathering node data
+2019-03-03,04:38:44.562410,DBG,Generated binary file
+2019-03-03,04:38:44.562973,ERROR,Node created
+2019-03-03,04:38:44.563727,DBG,Node created
+2019-03-03,04:38:44.563894,INFO,Gathering logs from all nodes
+2019-03-03,04:38:44.564087,INFO,Gathering node data

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{%  load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graph</title>
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+    <h2>Graphs</h2>
+    n:<input type="number" name="n_graph" value="n_graph"> <br>
+    p:<input type="number" name="p_graph" value="p_graph"><br>
+    num:<input type="number" name="num_graph" value="num_graph"><br>
+    search:<input type="text" name="search" value="search"><br>
+
+    <button type="submit" name="Graph_data" value="True">Print Time data</button>
+    {% if variable == 1 %}
+        {% for i in list %}
+            {% for I in data %}
+                {% if i.0 == I.2 %}
+                    <p>For n = {{ i.1 }}</p>
+                    <img src="/media/{{ I.0 }}">
+                    <img src="/media/{{ I.1 }}">
+{#                    #}
+{##}
+{#                    <img src="{% static 'plotNode_pie_1.png' %}">#}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+</form>
+</body>
+</html>

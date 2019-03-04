@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if variable2 == 1 %}
+        <meta http-equiv="refresh" content="5">
+    {% endif %}
+    <title>Title</title>
+</head>
+<body>
+<h1>Enter the values of n and p</h1>
+<form method="post">
+    {% csrf_token %}
+
+    <h2>Get the live feed</h2>
+    n:<input type="number" name="n_live" value="n_live"><br>
+    p:<input type="number" name="p_live" value="p_live"><br>
+    Pattern:<input type="text" name="live_pattern" value=""><br>
+    Number of Lines:<input type="number" name="live_number_of_lines" value="live_number_of_lines"><br>
+    <button type="submit" name="Print_live" value="True">Print Live</button>
+    <button type="submit" name="Live_Stop" value="True">Stop Live</button>
+    {% if variable2 == 1 %}
+        {% for i in list %}
+            {% for data_1 in data2 %}
+                {% if i == data_1.1 %}
+                <p>For n equal to {{ i }}</p>
+                <pre style="border:1px solid black;height:200px;width:100%;overflow:scroll">{{ data_1.0 }}</pre>
+                {% endif %}
+                {% endfor %}
+        {% endfor %}
+    {% endif %}
+
+</form>
+</body>
+</html>

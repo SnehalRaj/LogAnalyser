@@ -1,0 +1,60 @@
+Date,Time,Node,Process,Tag,File,Exception
+2019-03-04 , 05:36:18.186170 , 5 , 1 , ERROR , alert_manager.py:99 , Fanning out RPC
+2019-03-04 , 05:36:18.186278 , 5 , 1 , DBG , db_write.py:180 , Gathering node data
+2019-03-04 , 05:36:18.186390 , 5 , 1 , DBG , http_handler.py:225 , Creating task
+2019-03-04 , 05:36:18.186482 , 5 , 1 , DBG , protobuf_parser.py:303 , Fanning out RPC
+2019-03-04 , 05:36:18.186618 , 5 , 1 , INFO , alert_manager.py:128 , Fanning out RPC
+2019-03-04 , 05:36:18.186760 , 5 , 1 , ERROR , db_read.py:229 , Generated binary file
+2019-03-04 , 05:36:18.186820 , 5 , 1 , ERROR , db_read.py:93 , Creating task
+2019-03-04 , 05:36:18.187397 , 5 , 1 , INFO , gflags_handler.py:20 , Node destroyed
+2019-03-04 , 05:36:18.188388 , 5 , 1 , DBG , wsgi_handler.py:143 , Node created
+2019-03-04 , 05:36:18.188589 , 5 , 1 , DBG , http_handler.py:393 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.188815 , 5 , 1 , INFO , fanout.py:51 , Creating task
+2019-03-04 , 05:36:18.188974 , 5 , 1 , INFO , fanout.py:198 , Fanning out RPC
+2019-03-04 , 05:36:18.189060 , 5 , 1 , INFO , gflags_handler.py:197 , Creating task
+2019-03-04 , 05:36:18.189162 , 5 , 1 , INFO , task_generator.py:369 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.189347 , 5 , 1 , DBG , rpc_client.py:85 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.189556 , 5 , 1 , INFO , http_handler.py:100 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.189753 , 5 , 1 , ERROR , alert_manager.py:263 , Node destroyed
+2019-03-04 , 05:36:18.189976 , 5 , 1 , INFO , log_collector.py:303 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.190145 , 5 , 1 , DBG , gflags_handler.py:270 , Generated binary file
+2019-03-04 , 05:36:18.190188 , 5 , 1 , ERROR , fanout.py:252 , Fanning out RPC
+2019-03-04 , 05:36:18.190314 , 5 , 1 , DBG , ssh_tunnel.py:212 , Gathering node data
+2019-03-04 , 05:36:18.190413 , 5 , 1 , ERROR , audit_logger.py:382 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.190550 , 5 , 1 , INFO , fanout.py:187 , Generated binary file
+2019-03-04 , 05:36:18.190763 , 5 , 1 , INFO , publisher.py:373 , Fanning out RPC
+2019-03-04 , 05:36:18.190940 , 5 , 1 , ERROR , http_handler.py:158 , Node destroyed
+2019-03-04 , 05:36:18.191081 , 5 , 1 , DBG , scheduler.py:384 , Node created
+2019-03-04 , 05:36:18.191186 , 5 , 1 , ERROR , db_read.py:26 , Combining logs from all nodes into single log file
+2019-03-04 , 05:36:18.191304 , 5 , 1 , ERROR , task_generator.py:49 , Gathering node data
+2019-03-04 , 05:36:18.191799 , 5 , 1 , DBG , publisher.py:9 , Generated binary file
+2019-03-04 , 05:36:18.192151 , 5 , 1 , DBG , audit_logger.py:119 , Gathering node data
+2019-03-04 , 05:36:18.192597 , 5 , 1 , ERROR , fanout.py:42 , Gathering node data
+2019-03-04 , 05:36:18.192958 , 5 , 1 , ERROR , db_read.py:321 , Generated binary file
+2019-03-04 , 05:36:18.193064 , 5 , 1 , DBG , db_write.py:190 , Node destroyed
+2019-03-04 , 05:36:18.193152 , 5 , 1 , ERROR , audit_logger.py:307 , Fanning out RPC
+2019-03-04 , 05:36:18.193284 , 5 , 1 , DBG , db_write.py:199 , Node destroyed
+2019-03-04 , 05:36:18.193483 , 5 , 1 , INFO , db_read.py:104 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.193669 , 5 , 1 , DBG , protobuf_parser.py:364 , Generated binary file
+2019-03-04 , 05:36:18.193803 , 5 , 1 , ERROR , db_write.py:176 , Fanning out RPC
+2019-03-04 , 05:36:18.193855 , 5 , 1 , ERROR , gflags_handler.py:86 , Node destroyed
+2019-03-04 , 05:36:18.193958 , 5 , 1 , DBG , alert_manager.py:383 , Gathering node data
+2019-03-04 , 05:36:18.194056 , 5 , 1 , INFO , db_read.py:183 , Creating task
+2019-03-04 , 05:36:18.194428 , 5 , 1 , DBG , db_write.py:368 , Node destroyed
+2019-03-04 , 05:36:18.194585 , 5 , 1 , INFO , scheduler.py:224 , Node created
+2019-03-04 , 05:36:18.194617 , 5 , 1 , DBG , protobuf_parser.py:214 , Gathering node data
+2019-03-04 , 05:36:18.194781 , 5 , 1 , INFO , db_write.py:75 , Generated binary file
+2019-03-04 , 05:36:18.194858 , 5 , 1 , ERROR , http_handler.py:81 , Node destroyed
+2019-03-04 , 05:36:18.194996 , 5 , 1 , DBG , fanout.py:139 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.195114 , 5 , 1 , INFO , http_handler.py:52 , Node destroyed
+2019-03-04 , 05:36:18.195232 , 5 , 1 , ERROR , log_collector.py:227 , Combining logs from all nodes into single log file
+2019-03-04 , 05:36:18.195390 , 5 , 1 , INFO , db_write.py:373 , Node destroyed
+2019-03-04 , 05:36:18.195684 , 5 , 1 , ERROR , publisher.py:347 , Fanning out RPC
+2019-03-04 , 05:36:18.195922 , 5 , 1 , DBG , task_generator.py:63 , Generated binary file
+2019-03-04 , 05:36:18.196109 , 5 , 1 , DBG , scheduler.py:165 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.196343 , 5 , 1 , ERROR , task_generator.py:151 , Fanning out RPC
+2019-03-04 , 05:36:18.196877 , 5 , 1 , DBG , ssh_tunnel.py:74 , Fanning out RPC
+2019-03-04 , 05:36:18.196984 , 5 , 1 , INFO , protobuf_parser.py:309 , Creating task
+2019-03-04 , 05:36:18.197115 , 5 , 1 , DBG , ssh_tunnel.py:251 , Node destroyed
+2019-03-04 , 05:36:18.197316 , 5 , 1 , INFO , gflags_handler.py:206 , Gathering logs from all nodes
+2019-03-04 , 05:36:18.197496 , 5 , 1 , ERROR , http_handler.py:244 , Gathering logs from all nodes

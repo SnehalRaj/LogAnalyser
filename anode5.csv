@@ -1,0 +1,936 @@
+Date,Timestamp,Tags,File,Exception
+2019-03-04,06:16:55.244785,ERROR,audit_logger.py:389,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.245801,INFO,scheduler.py:37,Fanning out RPC
+2019-03-04,06:16:55.246909,ERROR,audit_logger.py:201,Generated binary file
+2019-03-04,06:16:55.249156,DBG,audit_logger.py:118,Gathering node data
+2019-03-04,06:16:55.249798,DBG,log_collector.py:7,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.250119,INFO,db_read.py:261,Node created
+2019-03-04,06:16:55.251617,ERROR,db_write.py:79,Generated binary file
+2019-03-04,06:16:55.251865,INFO,wsgi_handler.py:290,Generated binary file
+2019-03-04,06:16:55.253116,DBG,publisher.py:236,Fanning out RPC
+2019-03-04,06:16:55.253829,ERROR,publisher.py:380,Gathering node data
+2019-03-04,06:16:55.254280,ERROR,publisher.py:390,Gathering logs from all nodes
+2019-03-04,06:16:55.254525,INFO,publisher.py:384,Fanning out RPC
+2019-03-04,06:16:55.254835,ERROR,fanout.py:45,Creating task
+2019-03-04,06:16:55.255211,DBG,task_generator.py:262,Generated binary file
+2019-03-04,06:16:55.255631,ERROR,alert_manager.py:376,Creating task
+2019-03-04,06:16:55.257614,DBG,http_handler.py:38,Gathering logs from all nodes
+2019-03-04,06:16:55.258432,ERROR,audit_logger.py:46,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.259198,DBG,http_handler.py:252,Fanning out RPC
+2019-03-04,06:16:55.259501,ERROR,wsgi_handler.py:122,Generated binary file
+2019-03-04,06:16:55.259681,ERROR,db_read.py:158,Combining logs from all nodes into single log file
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 55, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 55, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , BasicAuthRequiredError , - , Invalid authentication
+2019-03-04,06:16:55.260799,INFO,fanout.py:243,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.261265,ERROR,wsgi_handler.py:123,Generated binary file
+2019-03-04,06:16:55.261807,DBG,gflags_handler.py:178,Gathering node data
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , ConflictError , - , Data structure not supported
+2019-03-04,06:16:55.262515,ERROR,task_generator.py:128,Fanning out RPC
+2019-03-04,06:16:55.262819,ERROR,rpc_client.py:131,Node destroyed
+2019-03-04,06:16:55.263404,INFO,protobuf_parser.py:385,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.264151,INFO,db_write.py:116,Combining logs from all nodes into single log file
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , ConflictError , - , Data structure not supported
+2019-03-04,06:16:55.264592,INFO,task_generator.py:224,Gathering node data
+2019-03-04,06:16:55.264804,ERROR,publisher.py:336,Node created
+2019-03-04,06:16:55.265363,DBG,rpc_client.py:375,Gathering node data
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , BasicAuthRequiredError , - , Authentication not provided
+2019-03-04,06:16:55.265734,INFO,log_collector.py:248,Creating task
+2019-03-04,06:16:55.266778,DBG,fanout.py:270,Node created
+2019-03-04,06:16:55.267269,INFO,fanout.py:206,Node created
+2019-03-04,06:16:55.267483,INFO,publisher.py:44,Node destroyed
+2019-03-04,06:16:55.267869,ERROR,rpc_client.py:399,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.268352,INFO,publisher.py:307,Node destroyed
+2019-03-04,06:16:55.268650,ERROR,protobuf_parser.py:230,Node destroyed
+2019-03-04,06:16:55.269062,INFO,http_handler.py:177,Gathering logs from all nodes
+2019-03-04,06:16:55.269333,INFO,http_handler.py:243,Fanning out RPC
+2019-03-04,06:16:55.269936,DBG,log_collector.py:66,Gathering logs from all nodes
+2019-03-04,06:16:55.270489,DBG,rpc_client.py:221,Node destroyed
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 53, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BadRequestError , - , Malformed request
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , ConflictError , - , Mismatched argumnets
+2019-03-04,06:16:55.274328,INFO,scheduler.py:170,Generated binary file
+2019-03-04,06:16:55.274729,DBG,audit_logger.py:398,Gathering logs from all nodes
+2019-03-04,06:16:55.275738,ERROR,audit_logger.py:87,Node destroyed
+2019-03-04,06:16:55.275920,DBG,gflags_handler.py:305,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.277153,DBG,rpc_client.py:397,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.278294,DBG,protobuf_parser.py:122,Gathering logs from all nodes
+2019-03-04,06:16:55.279312,ERROR,fanout.py:77,Gathering logs from all nodes
+2019-03-04,06:16:55.279988,INFO,log_collector.py:353,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.280243,INFO,protobuf_parser.py:373,Gathering node data
+2019-03-04,06:16:55.280594,DBG,db_write.py:104,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.281614,DBG,http_handler.py:142,Generated binary file
+2019-03-04,06:16:55.281791,ERROR,scheduler.py:318,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.282136,INFO,publisher.py:286,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.282283,DBG,gflags_handler.py:64,Generated binary file
+2019-03-04,06:16:55.282568,DBG,db_write.py:119,Gathering logs from all nodes
+2019-03-04,06:16:55.282905,DBG,ssh_tunnel.py:30,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.287045,INFO,db_read.py:400,Gathering node data
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , ConflictError , - , Mismatched argumnets
+2019-03-04,06:16:55.288097,INFO,protobuf_parser.py:11,Gathering node data
+2019-03-04,06:16:55.289610,DBG,audit_logger.py:185,Generated binary file
+2019-03-04,06:16:55.289699,ERROR,http_handler.py:102,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.290545,INFO,db_read.py:123,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.290696,DBG,http_handler.py:37,Fanning out RPC
+2019-03-04,06:16:55.291317,INFO,db_write.py:145,Node created
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , ConflictError , - , Mismatched argumnets
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , MissingAttributeError , - , Attribute missing
+2019-03-04,06:16:55.294151,ERROR,protobuf_parser.py:39,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.294954,ERROR,wsgi_handler.py:124,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.296097,ERROR,db_read.py:95,Gathering logs from all nodes
+2019-03-04,06:16:55.296826,DBG,scheduler.py:233,Node created
+2019-03-04,06:16:55.297374,ERROR,fanout.py:101,Node destroyed
+2019-03-04,06:16:55.298127,INFO,fanout.py:3,Node created
+2019-03-04,06:16:55.298403,DBG,db_write.py:123,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.299440,INFO,fanout.py:247,Generated binary file
+2019-03-04,06:16:55.299828,ERROR,alert_manager.py:49,Gathering logs from all nodes
+2019-03-04,06:16:55.300093,ERROR,gflags_handler.py:106,Generated binary file
+2019-03-04,06:16:55.300926,ERROR,rpc_client.py:210,Fanning out RPC
+2019-03-04,06:16:55.301013,INFO,wsgi_handler.py:244,Creating task
+2019-03-04,06:16:55.301481,INFO,task_generator.py:165,Gathering logs from all nodes
+2019-03-04,06:16:55.302581,DBG,rpc_client.py:46,Node created
+2019-03-04,06:16:55.302746,DBG,scheduler.py:26,Gathering logs from all nodes
+2019-03-04,06:16:55.303465,ERROR,ssh_tunnel.py:37,Generated binary file
+2019-03-04,06:16:55.304196,ERROR,gflags_handler.py:156,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.304384,INFO,task_generator.py:98,Gathering logs from all nodes
+2019-03-04,06:16:55.304615,INFO,alert_manager.py:69,Node destroyed
+2019-03-04,06:16:55.304782,ERROR,log_collector.py:29,Fanning out RPC
+2019-03-04,06:16:55.305216,INFO,audit_logger.py:217,Generated binary file
+2019-03-04,06:16:55.305287,ERROR,publisher.py:30,Gathering node data
+2019-03-04,06:16:55.306019,DBG,fanout.py:88,Gathering node data
+2019-03-04,06:16:55.306279,INFO,gflags_handler.py:110,Node destroyed
+2019-03-04,06:16:55.306819,INFO,db_read.py:130,Node destroyed
+2019-03-04,06:16:55.307239,INFO,audit_logger.py:292,Generated binary file
+2019-03-04,06:16:55.307483,ERROR,publisher.py:240,Creating task
+2019-03-04,06:16:55.307593,DBG,rpc_client.py:78,Creating task
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 86, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 55, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , InvalidArgumentError , - , Provided too many arguments
+2019-03-04,06:16:55.309155,ERROR,ssh_tunnel.py:234,Gathering node data
+2019-03-04,06:16:55.309697,DBG,wsgi_handler.py:392,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.310157,ERROR,audit_logger.py:121,Gathering node data
+2019-03-04,06:16:55.310300,DBG,gflags_handler.py:254,Creating task
+2019-03-04,06:16:55.310439,INFO,scheduler.py:127,Creating task
+2019-03-04,06:16:55.310814,INFO,gflags_handler.py:325,Gathering node data
+2019-03-04,06:16:55.311004,INFO,audit_logger.py:4,Creating task
+2019-03-04,06:16:55.311406,INFO,db_read.py:166,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.312026,DBG,ssh_tunnel.py:152,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.312207,DBG,publisher.py:38,Node created
+2019-03-04,06:16:55.312335,INFO,fanout.py:234,Node destroyed
+2019-03-04,06:16:55.312618,DBG,protobuf_parser.py:305,Generated binary file
+2019-03-04,06:16:55.313193,DBG,scheduler.py:325,Generated binary file
+2019-03-04,06:16:55.313248,ERROR,db_read.py:78,Gathering node data
+2019-03-04,06:16:55.313812,DBG,db_write.py:222,Node created
+2019-03-04,06:16:55.314119,ERROR,publisher.py:15,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.315131,INFO,alert_manager.py:304,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.315204,INFO,scheduler.py:43,Gathering node data
+2019-03-04,06:16:55.315498,ERROR,ssh_tunnel.py:3,Generated binary file
+2019-03-04,06:16:55.315582,INFO,http_handler.py:210,Node destroyed
+2019-03-04,06:16:55.316565,DBG,publisher.py:71,Gathering logs from all nodes
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , BasicAuthRequiredError , - , Invalid authentication
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , MissingAttributeError , - , Attribute not provided
+2019-03-04,06:16:55.318070,INFO,protobuf_parser.py:347,Creating task
+2019-03-04,06:16:55.318644,ERROR,gflags_handler.py:342,Gathering logs from all nodes
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , ConflictError , - , Data structure not supported
+2019-03-04,06:16:55.319636,DBG,http_handler.py:152,Gathering node data
+2019-03-04,06:16:55.319789,INFO,log_collector.py:156,Fanning out RPC
+2019-03-04,06:16:55.319958,INFO,db_write.py:124,Generated binary file
+2019-03-04,06:16:55.320111,DBG,protobuf_parser.py:176,Gathering logs from all nodes
+2019-03-04,06:16:55.320230,DBG,log_collector.py:332,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.320378,DBG,log_collector.py:242,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.321421,ERROR,audit_logger.py:291,Generated binary file
+2019-03-04,06:16:55.321554,INFO,alert_manager.py:356,Creating task
+2019-03-04,06:16:55.321957,DBG,protobuf_parser.py:5,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.324676,ERROR,scheduler.py:5,Gathering logs from all nodes
+2019-03-04,06:16:55.325289,DBG,log_collector.py:7,Creating task
+2019-03-04,06:16:55.325706,ERROR,db_read.py:285,Gathering logs from all nodes
+2019-03-04,06:16:55.326680,ERROR,protobuf_parser.py:398,Node created
+2019-03-04,06:16:55.327180,INFO,rpc_client.py:395,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.328016,INFO,scheduler.py:254,Gathering node data
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , MissingAttributeError , - , Attribute missing
+2019-03-04,06:16:55.328708,ERROR,http_handler.py:150,Node created
+2019-03-04,06:16:55.329130,INFO,db_write.py:278,Generated binary file
+2019-03-04,06:16:55.329488,ERROR,alert_manager.py:178,Fanning out RPC
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 53, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BadRequestError , - , Malformed request
+2019-03-04,06:16:55.330343,DBG,rpc_client.py:27,Gathering logs from all nodes
+2019-03-04,06:16:55.330503,DBG,protobuf_parser.py:60,Gathering node data
+2019-03-04,06:16:55.330817,DBG,rpc_client.py:61,Creating task
+2019-03-04,06:16:55.330940,ERROR,db_read.py:105,Node created
+2019-03-04,06:16:55.331058,ERROR,rpc_client.py:244,Generated binary file
+2019-03-04,06:16:55.331443,DBG,ssh_tunnel.py:252,Node destroyed
+2019-03-04,06:16:55.331780,DBG,rpc_client.py:107,Fanning out RPC
+2019-03-04,06:16:55.332699,INFO,db_write.py:66,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.332839,DBG,wsgi_handler.py:385,Generated binary file
+2019-03-04,06:16:55.333116,DBG,protobuf_parser.py:91,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.333525,DBG,audit_logger.py:149,Node created
+2019-03-04,06:16:55.333895,INFO,db_read.py:212,Gathering logs from all nodes
+2019-03-04,06:16:55.334210,ERROR,db_write.py:125,Generated binary file
+2019-03-04,06:16:55.334413,DBG,http_handler.py:179,Gathering logs from all nodes
+2019-03-04,06:16:55.334730,INFO,ssh_tunnel.py:395,Fanning out RPC
+2019-03-04,06:16:55.334896,ERROR,fanout.py:237,Node created
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BasicAuthRequiredError , - , Authentication not provided
+2019-03-04,06:16:55.335729,ERROR,alert_manager.py:91,Combining logs from all nodes into single log file
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , InvalidArgumentError , - , Provided too many arguments
+2019-03-04,06:16:55.336137,INFO,rpc_client.py:110,Node created
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 55, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , ConflictError , - , Conflicting data types
+2019-03-04,06:16:55.337968,DBG,task_generator.py:91,Gathering node data
+2019-03-04,06:16:55.338235,ERROR,scheduler.py:373,Node destroyed
+2019-03-04,06:16:55.338400,INFO,audit_logger.py:281,Gathering logs from all nodes
+2019-03-04,06:16:55.338622,INFO,log_collector.py:200,Fanning out RPC
+2019-03-04,06:16:55.338764,ERROR,db_write.py:231,Gathering node data
+2019-03-04,06:16:55.339134,DBG,alert_manager.py:53,Gathering node data
+2019-03-04,06:16:55.339552,INFO,rpc_client.py:284,Generated binary file
+2019-03-04,06:16:55.340827,ERROR,publisher.py:340,Creating task
+2019-03-04,06:16:55.341269,ERROR,protobuf_parser.py:77,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.341389,DBG,scheduler.py:281,Node destroyed
+2019-03-04,06:16:55.341613,DBG,wsgi_handler.py:339,Fanning out RPC
+2019-03-04,06:16:55.341973,DBG,gflags_handler.py:21,Gathering logs from all nodes
+2019-03-04,06:16:55.342040,INFO,http_handler.py:99,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.342224,DBG,http_handler.py:305,Gathering node data
+2019-03-04,06:16:55.342658,INFO,http_handler.py:192,Generated binary file
+2019-03-04,06:16:55.342902,INFO,audit_logger.py:151,Creating task
+2019-03-04,06:16:55.343351,ERROR,protobuf_parser.py:348,Gathering node data
+2019-03-04,06:16:55.343478,ERROR,alert_manager.py:5,Node created
+2019-03-04,06:16:55.344070,ERROR,http_handler.py:318,Node destroyed
+2019-03-04,06:16:55.344192,ERROR,rpc_client.py:349,Node created
+2019-03-04,06:16:55.344439,DBG,http_handler.py:237,Gathering node data
+2019-03-04,06:16:55.344753,DBG,fanout.py:292,Node created
+2019-03-04,06:16:55.344833,ERROR,task_generator.py:207,Gathering logs from all nodes
+2019-03-04,06:16:55.346197,ERROR,wsgi_handler.py:318,Gathering logs from all nodes
+2019-03-04,06:16:55.346511,ERROR,db_write.py:382,Gathering node data
+2019-03-04,06:16:55.347151,ERROR,ssh_tunnel.py:23,Gathering logs from all nodes
+2019-03-04,06:16:55.347300,DBG,task_generator.py:281,Fanning out RPC
+2019-03-04,06:16:55.349350,ERROR,task_generator.py:333,Gathering logs from all nodes
+2019-03-04,06:16:55.349768,ERROR,wsgi_handler.py:64,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.350892,INFO,ssh_tunnel.py:331,Creating task
+2019-03-04,06:16:55.351080,DBG,fanout.py:80,Node destroyed
+2019-03-04,06:16:55.351522,INFO,log_collector.py:210,Gathering node data
+2019-03-04,06:16:55.352264,DBG,rpc_client.py:164,Node created
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 64, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 88, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , BadRequestError , - , Special Characters not allowed
+2019-03-04,06:16:55.354829,ERROR,db_write.py:161,Gathering logs from all nodes
+2019-03-04,06:16:55.355818,INFO,fanout.py:338,Gathering node data
+2019-03-04,06:16:55.356633,INFO,db_read.py:11,Generated binary file
+2019-03-04,06:16:55.356914,INFO,fanout.py:300,Creating task
+2019-03-04,06:16:55.357967,DBG,rpc_client.py:192,Generated binary file
+2019-03-04,06:16:55.358028,INFO,scheduler.py:137,Fanning out RPC
+2019-03-04,06:16:55.358625,ERROR,fanout.py:118,Node destroyed
+2019-03-04,06:16:55.359120,INFO,log_collector.py:318,Gathering logs from all nodes
+2019-03-04,06:16:55.359266,INFO,db_read.py:262,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.359622,ERROR,alert_manager.py:181,Gathering logs from all nodes
+2019-03-04,06:16:55.360441,ERROR,gflags_handler.py:392,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.361172,ERROR,http_handler.py:234,Gathering logs from all nodes
+2019-03-04,06:16:55.361492,ERROR,http_handler.py:120,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.361559,ERROR,ssh_tunnel.py:92,Generated binary file
+2019-03-04,06:16:55.362388,DBG,scheduler.py:371,Gathering logs from all nodes
+2019-03-04,06:16:55.362959,DBG,http_handler.py:6,Node destroyed
+2019-03-04,06:16:55.363840,INFO,alert_manager.py:188,Generated binary file
+2019-03-04,06:16:55.364451,INFO,wsgi_handler.py:148,Gathering logs from all nodes
+2019-03-04,06:16:55.365152,ERROR,alert_manager.py:129,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.365396,ERROR,scheduler.py:3,Fanning out RPC
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 86, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 53, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , InvalidArgumentError , - , Arguments not supported
+2019-03-04,06:16:55.367461,DBG,fanout.py:17,Node destroyed
+2019-03-04,06:16:55.367594,INFO,task_generator.py:287,Gathering node data
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , MissingAttributeError , - , Attribute missing
+2019-03-04,06:16:55.368626,ERROR,log_collector.py:45,Creating task
+2019-03-04,06:16:55.368790,INFO,task_generator.py:67,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.369345,INFO,gflags_handler.py:384,Creating task
+2019-03-04,06:16:55.369443,INFO,scheduler.py:247,Node created
+2019-03-04,06:16:55.369802,INFO,protobuf_parser.py:276,Generated binary file
+2019-03-04,06:16:55.370344,DBG,http_handler.py:371,Gathering logs from all nodes
+2019-03-04,06:16:55.371103,ERROR,wsgi_handler.py:147,Generated binary file
+2019-03-04,06:16:55.372578,ERROR,log_collector.py:258,Fanning out RPC
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 53, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BadRequestError , - , Request buffer too small
+2019-03-04,06:16:55.373956,DBG,alert_manager.py:176,Generated binary file
+2019-03-04,06:16:55.374161,ERROR,scheduler.py:295,Fanning out RPC
+2019-03-04,06:16:55.374383,ERROR,wsgi_handler.py:77,Gathering node data
+2019-03-04,06:16:55.374552,ERROR,gflags_handler.py:198,Generated binary file
+2019-03-04,06:16:55.374780,INFO,protobuf_parser.py:119,Creating task
+2019-03-04,06:16:55.375016,INFO,publisher.py:302,Generated binary file
+2019-03-04,06:16:55.375807,DBG,audit_logger.py:312,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.377233,DBG,rpc_client.py:387,Fanning out RPC
+2019-03-04,06:16:55.377372,DBG,db_write.py:20,Creating task
+2019-03-04,06:16:55.377516,INFO,log_collector.py:326,Node created
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 64, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 88, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 88, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , BadRequestError , - , Malformed request
+2019-03-04,06:16:55.378074,ERROR,fanout.py:287,Node created
+2019-03-04,06:16:55.379326,ERROR,db_write.py:334,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.379993,ERROR,db_read.py:391,Node created
+2019-03-04,06:16:55.380255,INFO,alert_manager.py:386,Node destroyed
+2019-03-04,06:16:55.380407,DBG,ssh_tunnel.py:123,Node created
+2019-03-04,06:16:55.380554,INFO,task_generator.py:213,Gathering logs from all nodes
+2019-03-04,06:16:55.381190,DBG,task_generator.py:301,Fanning out RPC
+2019-03-04,06:16:55.382967,DBG,audit_logger.py:228,Gathering node data
+2019-03-04,06:16:55.383164,DBG,fanout.py:24,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.384889,INFO,publisher.py:322,Node destroyed
+2019-03-04,06:16:55.385115,INFO,scheduler.py:249,Generated binary file
+2019-03-04,06:16:55.385269,DBG,wsgi_handler.py:261,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.385553,INFO,ssh_tunnel.py:376,Gathering node data
+2019-03-04,06:16:55.386755,ERROR,rpc_client.py:103,Gathering node data
+2019-03-04,06:16:55.387269,ERROR,alert_manager.py:127,Gathering node data
+2019-03-04,06:16:55.388864,ERROR,db_read.py:368,Creating task
+2019-03-04,06:16:55.389077,DBG,http_handler.py:228,Gathering logs from all nodes
+2019-03-04,06:16:55.389173,ERROR,scheduler.py:169,Gathering node data
+2019-03-04,06:16:55.389704,ERROR,db_write.py:35,Creating task
+2019-03-04,06:16:55.390542,DBG,rpc_client.py:100,Generated binary file
+2019-03-04,06:16:55.390751,ERROR,alert_manager.py:278,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.390986,INFO,alert_manager.py:358,Generated binary file
+2019-03-04,06:16:55.391120,ERROR,publisher.py:328,Node destroyed
+2019-03-04,06:16:55.391328,INFO,publisher.py:148,Generated binary file
+2019-03-04,06:16:55.391503,INFO,db_read.py:277,Gathering node data
+2019-03-04,06:16:55.391588,DBG,rpc_client.py:352,Node destroyed
+2019-03-04,06:16:55.391670,ERROR,gflags_handler.py:343,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.391711,ERROR,publisher.py:270,Fanning out RPC
+2019-03-04,06:16:55.391881,INFO,wsgi_handler.py:227,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.391920,INFO,http_handler.py:338,Fanning out RPC
+2019-03-04,06:16:55.392107,DBG,gflags_handler.py:34,Node destroyed
+2019-03-04,06:16:55.392183,INFO,http_handler.py:202,Node destroyed
+2019-03-04,06:16:55.392296,INFO,task_generator.py:274,Node destroyed
+2019-03-04,06:16:55.392408,DBG,task_generator.py:308,Gathering node data
+2019-03-04,06:16:55.392446,INFO,db_write.py:362,Fanning out RPC
+2019-03-04,06:16:55.394049,DBG,protobuf_parser.py:64,Generated binary file
+2019-03-04,06:16:55.394298,ERROR,http_handler.py:271,Fanning out RPC
+2019-03-04,06:16:55.394946,ERROR,wsgi_handler.py:273,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.395584,DBG,audit_logger.py:332,Fanning out RPC
+2019-03-04,06:16:55.399274,DBG,log_collector.py:389,Node destroyed
+2019-03-04,06:16:55.399470,INFO,wsgi_handler.py:273,Creating task
+2019-03-04,06:16:55.399735,INFO,fanout.py:67,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.400839,INFO,gflags_handler.py:29,Fanning out RPC
+2019-03-04,06:16:55.401205,ERROR,db_write.py:194,Fanning out RPC
+2019-03-04,06:16:55.403043,INFO,task_generator.py:221,Gathering node data
+2019-03-04,06:16:55.403527,ERROR,rpc_client.py:319,Generated binary file
+2019-03-04,06:16:55.403656,INFO,log_collector.py:18,Fanning out RPC
+2019-03-04,06:16:55.404731,DBG,fanout.py:84,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.405428,INFO,wsgi_handler.py:301,Combining logs from all nodes into single log file
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , InvalidArgumentError , - , Arguments not supported
+2019-03-04,06:16:55.406482,ERROR,alert_manager.py:99,Generated binary file
+2019-03-04,06:16:55.407378,INFO,fanout.py:3,Node created
+2019-03-04,06:16:55.407543,ERROR,publisher.py:312,Gathering logs from all nodes
+2019-03-04,06:16:55.407826,ERROR,scheduler.py:140,Creating task
+2019-03-04,06:16:55.408202,DBG,alert_manager.py:136,Node destroyed
+2019-03-04,06:16:55.408385,INFO,wsgi_handler.py:242,Creating task
+2019-03-04,06:16:55.408546,DBG,wsgi_handler.py:328,Gathering logs from all nodes
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 55, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 55, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , BasicAuthRequiredError , - , Password not provided
+2019-03-04,06:16:55.409685,DBG,db_write.py:314,Gathering logs from all nodes
+2019-03-04,06:16:55.410406,DBG,fanout.py:363,Fanning out RPC
+2019-03-04,06:16:55.412983,ERROR,http_handler.py:169,Node created
+2019-03-04,06:16:55.413081,DBG,http_handler.py:251,Node created
+2019-03-04,06:16:55.413367,INFO,log_collector.py:358,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.414515,ERROR,db_read.py:3,Fanning out RPC
+2019-03-04,06:16:55.414750,INFO,publisher.py:111,Fanning out RPC
+2019-03-04,06:16:55.415237,ERROR,db_read.py:365,Gathering node data
+2019-03-04,06:16:55.415471,ERROR,task_generator.py:241,Gathering logs from all nodes
+2019-03-04,06:16:55.415606,ERROR,audit_logger.py:82,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.415919,ERROR,fanout.py:74,Generated binary file
+2019-03-04,06:16:55.416230,ERROR,publisher.py:196,Gathering logs from all nodes
+2019-03-04,06:16:55.416372,ERROR,gflags_handler.py:162,Node destroyed
+2019-03-04,06:16:55.416488,ERROR,log_collector.py:15,Combining logs from all nodes into single log file
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , ConflictError , - , Mismatched argumnets
+2019-03-04,06:16:55.416864,ERROR,wsgi_handler.py:213,Gathering node data
+2019-03-04,06:16:55.417008,ERROR,ssh_tunnel.py:316,Generated binary file
+2019-03-04,06:16:55.417116,INFO,gflags_handler.py:384,Gathering logs from all nodes
+2019-03-04,06:16:55.417553,INFO,wsgi_handler.py:116,Generated binary file
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 64, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 88, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , MissingAttributeError , - , Extra attribute needed
+2019-03-04,06:16:55.419031,INFO,audit_logger.py:365,Node destroyed
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 64, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 88, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 86, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , BasicAuthRequiredError , - , Password not provided
+2019-03-04,06:16:55.422493,INFO,http_handler.py:158,Fanning out RPC
+2019-03-04,06:16:55.422815,INFO,gflags_handler.py:256,Node destroyed
+2019-03-04,06:16:55.425318,INFO,db_read.py:359,Gathering logs from all nodes
+2019-03-04,06:16:55.425474,ERROR,audit_logger.py:132,Node destroyed
+2019-03-04,06:16:55.425959,INFO,wsgi_handler.py:358,Creating task
+2019-03-04,06:16:55.426433,INFO,audit_logger.py:272,Gathering logs from all nodes
+2019-03-04,06:16:55.426596,ERROR,db_read.py:315,Fanning out RPC
+2019-03-04,06:16:55.426819,DBG,gflags_handler.py:276,Creating task
+2019-03-04,06:16:55.438153,ERROR,gflags_handler.py:167,Generated binary file
+2019-03-04,06:16:55.438445,INFO,scheduler.py:111,Generated binary file
+2019-03-04,06:16:55.438595,INFO,protobuf_parser.py:300,Gathering node data
+2019-03-04,06:16:55.438726,DBG,fanout.py:128,Fanning out RPC
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BasicAuthRequiredError , - , Password not provided
+2019-03-04,06:16:55.441371,DBG,fanout.py:328,Generated binary file
+2019-03-04,06:16:55.442179,ERROR,fanout.py:138,Creating task
+2019-03-04,06:16:55.442674,INFO,task_generator.py:152,Generated binary file
+2019-03-04,06:16:55.442744,INFO,gflags_handler.py:152,Gathering logs from all nodes
+2019-03-04,06:16:55.442828,DBG,scheduler.py:183,Fanning out RPC
+2019-03-04,06:16:55.443395,INFO,alert_manager.py:324,Fanning out RPC
+2019-03-04,06:16:55.443495,INFO,rpc_client.py:129,Generated binary file
+2019-03-04,06:16:55.444615,DBG,protobuf_parser.py:183,Node destroyed
+2019-03-04,06:16:55.446716,DBG,rpc_client.py:101,Gathering logs from all nodes
+2019-03-04,06:16:55.446794,ERROR,scheduler.py:108,Fanning out RPC
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , MissingAttributeError , - , Attribute missing
+2019-03-04,06:16:55.447359,DBG,fanout.py:187,Node created
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , BasicAuthRequiredError , - , Username not provided
+2019-03-04,06:16:55.448335,DBG,db_read.py:207,Creating task
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 64, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 86, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , InvalidArgumentError , - , Provided too few arguments
+2019-03-04,06:16:55.448856,ERROR,publisher.py:155,Gathering logs from all nodes
+2019-03-04,06:16:55.449212,DBG,rpc_client.py:353,Creating task
+2019-03-04,06:16:55.449858,INFO,log_collector.py:230,Gathering logs from all nodes
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 53, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , InvalidArgumentError , - , Arguments not supported
+2019-03-04,06:16:55.451642,INFO,ssh_tunnel.py:359,Generated binary file
+2019-03-04,06:16:55.451861,DBG,http_handler.py:7,Gathering node data
+2019-03-04,06:16:55.451999,INFO,alert_manager.py:233,Node created
+2019-03-04,06:16:55.452541,DBG,fanout.py:159,Fanning out RPC
+2019-03-04,06:16:55.452927,ERROR,ssh_tunnel.py:308,Gathering logs from all nodes
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 64, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , ConflictError , - , Mismatched argumnets
+2019-03-04,06:16:55.454324,INFO,db_write.py:97,Node created
+2019-03-04,06:16:55.454496,ERROR,gflags_handler.py:40,Node created
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , BadRequestError , - , Special Characters not allowed
+2019-03-04,06:16:55.454904,ERROR,gflags_handler.py:232,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.454955,ERROR,db_read.py:63,Creating task
+2019-03-04,06:16:55.455377,DBG,audit_logger.py:376,Node destroyed
+2019-03-04,06:16:55.455725,ERROR,alert_manager.py:186,Generated binary file
+2019-03-04,06:16:55.457169,INFO,http_handler.py:78,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.457227,ERROR,protobuf_parser.py:40,Gathering logs from all nodes
+2019-03-04,06:16:55.457883,ERROR,db_read.py:303,Generated binary file
+2019-03-04,06:16:55.459064,INFO,rpc_client.py:14,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.460463,DBG,alert_manager.py:129,Node created
+2019-03-04,06:16:55.460732,INFO,fanout.py:176,Creating task
+2019-03-04,06:16:55.461090,ERROR,task_generator.py:82,Node destroyed
+2019-03-04,06:16:55.461288,INFO,protobuf_parser.py:293,Gathering logs from all nodes
+2019-03-04,06:16:55.461535,INFO,gflags_handler.py:357,Node created
+2019-03-04,06:16:55.461673,DBG,scheduler.py:58,Fanning out RPC
+2019-03-04,06:16:55.462454,ERROR,db_write.py:343,Gathering logs from all nodes
+2019-03-04,06:16:55.462659,DBG,db_write.py:45,Gathering node data
+2019-03-04,06:16:55.462807,INFO,alert_manager.py:325,Gathering node data
+2019-03-04,06:16:55.462917,DBG,protobuf_parser.py:325,Gathering logs from all nodes
+2019-03-04,06:16:55.464833,INFO,wsgi_handler.py:73,Creating task
+2019-03-04,06:16:55.464972,ERROR,http_handler.py:260,Node created
+2019-03-04,06:16:55.465288,ERROR,rpc_client.py:112,Generated binary file
+2019-03-04,06:16:55.465525,ERROR,alert_manager.py:47,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.466851,DBG,db_read.py:107,Creating task
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , ConflictError , - , Data structure not supported
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , InvalidArgumentError , - , Unable to parse arguments
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BasicAuthRequiredError , - , Invalid authentication
+2019-03-04,06:16:55.471981,DBG,rpc_client.py:391,Generated binary file
+2019-03-04,06:16:55.472173,DBG,publisher.py:174,Creating task
+2019-03-04,06:16:55.472381,DBG,rpc_client.py:100,Generated binary file
+2019-03-04,06:16:55.473168,ERROR,log_collector.py:322,Node created
+2019-03-04,06:16:55.473694,INFO,publisher.py:104,Gathering node data
+2019-03-04,06:16:55.474121,ERROR,ssh_tunnel.py:191,Fanning out RPC
+2019-03-04,06:16:55.474387,ERROR,db_write.py:259,Generated binary file
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , InvalidArgumentError , - , Unable to parse arguments
+2019-03-04,06:16:55.475140,INFO,scheduler.py:332,Creating task
+2019-03-04,06:16:55.477956,DBG,gflags_handler.py:155,Gathering logs from all nodes
+2019-03-04,06:16:55.478429,ERROR,audit_logger.py:188,Gathering logs from all nodes
+2019-03-04,06:16:55.478670,ERROR,db_read.py:304,Generated binary file
+2019-03-04,06:16:55.479819,DBG,rpc_client.py:17,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.480634,DBG,log_collector.py:211,Node created
+2019-03-04,06:16:55.481141,INFO,publisher.py:127,Gathering node data
+2019-03-04,06:16:55.481301,INFO,alert_manager.py:59,Node created
+2019-03-04,06:16:55.481841,DBG,audit_logger.py:214,Fanning out RPC
+2019-03-04,06:16:55.482288,DBG,alert_manager.py:247,Gathering node data
+2019-03-04,06:16:55.482552,INFO,log_collector.py:388,Generated binary file
+2019-03-04,06:16:55.482808,DBG,http_handler.py:121,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.483068,ERROR,fanout.py:198,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.483228,ERROR,publisher.py:298,Gathering logs from all nodes
+2019-03-04,06:16:55.485285,INFO,alert_manager.py:25,Node created
+2019-03-04,06:16:55.485576,ERROR,audit_logger.py:2,Creating task
+2019-03-04,06:16:55.485966,ERROR,gflags_handler.py:184,Fanning out RPC
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , ConflictError , - , Conflicting data types
+2019-03-04,06:16:55.486641,DBG,rpc_client.py:254,Node destroyed
+2019-03-04,06:16:55.487990,DBG,task_generator.py:175,Node created
+2019-03-04,06:16:55.488622,DBG,fanout.py:162,Gathering node data
+2019-03-04,06:16:55.490171,INFO,gflags_handler.py:381,Fanning out RPC
+2019-03-04,06:16:55.490367,INFO,gflags_handler.py:384,Node created
+2019-03-04,06:16:55.491762,ERROR,log_collector.py:78,Fanning out RPC
+2019-03-04,06:16:55.492094,INFO,wsgi_handler.py:342,Fanning out RPC
+2019-03-04,06:16:55.492134,ERROR,audit_logger.py:336,Node created
+2019-03-04,06:16:55.492313,DBG,task_generator.py:198,Gathering logs from all nodes
+2019-03-04,06:16:55.492551,INFO,alert_manager.py:189,Gathering node data
+2019-03-04,06:16:55.492677,INFO,alert_manager.py:195,Gathering logs from all nodes
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , MissingAttributeError , - , Attribute missing
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , BadRequestError , - , Request buffer too large
+2019-03-04,06:16:55.493807,DBG,gflags_handler.py:51,Fanning out RPC
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , InvalidArgumentError , - , Provided too few arguments
+2019-03-04,06:16:55.494588,INFO,wsgi_handler.py:163,Node destroyed
+2019-03-04,06:16:55.495246,DBG,log_collector.py:46,Generated binary file
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 86, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 55, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , ConflictError , - , Conflicting data types
+2019-03-04,06:16:55.496489,INFO,scheduler.py:120,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.497002,DBG,wsgi_handler.py:302,Node created
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 55, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , BadRequestError , - , Request buffer too small
+2019-03-04,06:16:55.497549,INFO,scheduler.py:22,Gathering logs from all nodes
+2019-03-04,06:16:55.497760,INFO,audit_logger.py:174,Generated binary file
+2019-03-04,06:16:55.498258,ERROR,fanout.py:218,Gathering logs from all nodes
+2019-03-04,06:16:55.499218,ERROR,scheduler.py:343,Generated binary file
+2019-03-04,06:16:55.499566,DBG,fanout.py:240,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.499988,ERROR,wsgi_handler.py:377,Gathering logs from all nodes
+2019-03-04,06:16:55.501333,DBG,log_collector.py:78,Combining logs from all nodes into single log file
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , MissingAttributeError , - , Attribute not provided
+2019-03-04,06:16:55.502577,DBG,fanout.py:180,Gathering logs from all nodes
+2019-03-04,06:16:55.503008,DBG,log_collector.py:367,Gathering node data
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BasicAuthRequiredError , - , Invalid authentication
+2019-03-04,06:16:55.503752,ERROR,ssh_tunnel.py:36,Generated binary file
+2019-03-04,06:16:55.504156,DBG,scheduler.py:217,Node created
+2019-03-04,06:16:55.505825,INFO,gflags_handler.py:6,Generated binary file
+2019-03-04,06:16:55.506019,INFO,wsgi_handler.py:189,Node created
+2019-03-04,06:16:55.506149,DBG,db_read.py:150,Fanning out RPC
+2019-03-04,06:16:55.506864,INFO,gflags_handler.py:87,Gathering node data
+2019-03-04,06:16:55.507327,ERROR,audit_logger.py:134,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.507452,INFO,db_write.py:337,Gathering logs from all nodes
+2019-03-04,06:16:55.507825,DBG,rpc_client.py:190,Gathering logs from all nodes
+2019-03-04,06:16:55.507947,INFO,audit_logger.py:33,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.508871,ERROR,ssh_tunnel.py:256,Gathering logs from all nodes
+2019-03-04,06:16:55.510120,DBG,db_read.py:293,Gathering node data
+2019-03-04,06:16:55.511119,INFO,audit_logger.py:131,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.512145,INFO,db_write.py:298,Generated binary file
+2019-03-04,06:16:55.512228,INFO,publisher.py:183,Gathering node data
+2019-03-04,06:16:55.513021,DBG,publisher.py:314,Gathering node data
+2019-03-04,06:16:55.513726,DBG,scheduler.py:223,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.514464,ERROR,log_collector.py:33,Gathering logs from all nodes
+2019-03-04,06:16:55.514865,INFO,ssh_tunnel.py:203,Fanning out RPC
+2019-03-04,06:16:55.515297,DBG,wsgi_handler.py:373,Gathering logs from all nodes
+2019-03-04,06:16:55.515520,ERROR,rpc_client.py:335,Node destroyed
+2019-03-04,06:16:55.516483,DBG,db_read.py:99,Fanning out RPC
+2019-03-04,06:16:55.517423,DBG,http_handler.py:265,Node destroyed
+2019-03-04,06:16:55.517998,INFO,wsgi_handler.py:51,Node created
+2019-03-04,06:16:55.518378,ERROR,audit_logger.py:5,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.518919,DBG,http_handler.py:255,Node created
+2019-03-04,06:16:55.519540,INFO,task_generator.py:136,Gathering logs from all nodes
+2019-03-04,06:16:55.520608,INFO,fanout.py:377,Gathering logs from all nodes
+2019-03-04,06:16:55.522865,ERROR,log_collector.py:239,Generated binary file
+2019-03-04,06:16:55.523291,INFO,alert_manager.py:22,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.523958,INFO,publisher.py:379,Fanning out RPC
+2019-03-04,06:16:55.524862,INFO,gflags_handler.py:7,Generated binary file
+2019-03-04,06:16:55.525866,DBG,db_write.py:39,Fanning out RPC
+2019-03-04,06:16:55.526932,INFO,protobuf_parser.py:157,Node created
+2019-03-04,06:16:55.528181,INFO,publisher.py:281,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.529000,ERROR,gflags_handler.py:79,Creating task
+2019-03-04,06:16:55.529304,ERROR,ssh_tunnel.py:349,Gathering logs from all nodes
+2019-03-04,06:16:55.529975,INFO,fanout.py:302,Creating task
+2019-03-04,06:16:55.530221,ERROR,scheduler.py:384,Node created
+2019-03-04,06:16:55.530816,DBG,rpc_client.py:174,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.531916,ERROR,publisher.py:226,Node destroyed
+2019-03-04,06:16:55.533028,INFO,ssh_tunnel.py:237,Generated binary file
+2019-03-04,06:16:55.533655,DBG,scheduler.py:183,Fanning out RPC
+2019-03-04,06:16:55.533949,ERROR,db_write.py:293,Node created
+2019-03-04,06:16:55.534023,DBG,gflags_handler.py:110,Gathering logs from all nodes
+2019-03-04,06:16:55.534351,ERROR,ssh_tunnel.py:254,Fanning out RPC
+2019-03-04,06:16:55.535152,INFO,protobuf_parser.py:167,Gathering logs from all nodes
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BadRequestError , - , Malformed request
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , BasicAuthRequiredError , - , Authentication not provided
+2019-03-04,06:16:55.537291,ERROR,gflags_handler.py:55,Gathering logs from all nodes
+2019-03-04,06:16:55.537514,ERROR,ssh_tunnel.py:205,Node destroyed
+2019-03-04,06:16:55.538394,DBG,db_write.py:390,Gathering logs from all nodes
+2019-03-04,06:16:55.539306,DBG,gflags_handler.py:248,Node created
+2019-03-04,06:16:55.539833,ERROR,ssh_tunnel.py:153,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.540475,INFO,task_generator.py:360,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.540677,DBG,scheduler.py:69,Fanning out RPC
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , MissingAttributeError , - , Extra attribute needed
+2019-03-04,06:16:55.541777,INFO,protobuf_parser.py:358,Generated binary file
+2019-03-04,06:16:55.542088,INFO,alert_manager.py:369,Gathering logs from all nodes
+2019-03-04,06:16:55.542899,INFO,scheduler.py:162,Node destroyed
+2019-03-04,06:16:55.543177,ERROR,publisher.py:382,Generated binary file
+2019-03-04,06:16:55.543510,DBG,ssh_tunnel.py:39,Node destroyed
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 55, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 53, Traceback in get_data
+ - , - ,  File "./random_traceback.py", line 66, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 64, Traceback in extract_metadata
+ - , - ,  File "./random_traceback.py", line 88, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , BadRequestError , - , Request buffer too large
+ - , - ,  File "./random_traceback.py", line 98, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , MissingAttributeError , - , Extra attribute needed
+2019-03-04,06:16:55.545029,ERROR,alert_manager.py:325,Creating task
+2019-03-04,06:16:55.546361,INFO,alert_manager.py:376,Creating task
+2019-03-04,06:16:55.547850,DBG,rpc_client.py:24,Node created
+2019-03-04,06:16:55.548139,ERROR,log_collector.py:337,Fanning out RPC
+2019-03-04,06:16:55.550285,INFO,ssh_tunnel.py:35,Gathering logs from all nodes
+2019-03-04,06:16:55.550409,INFO,scheduler.py:86,Node destroyed
+2019-03-04,06:16:55.550987,ERROR,wsgi_handler.py:270,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.551407,INFO,scheduler.py:93,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.551809,ERROR,http_handler.py:180,Node created
+2019-03-04,06:16:55.552826,INFO,alert_manager.py:313,Node destroyed
+2019-03-04,06:16:55.552932,DBG,alert_manager.py:357,Node created
+2019-03-04,06:16:55.553159,DBG,gflags_handler.py:7,Creating task
+2019-03-04,06:16:55.553359,ERROR,rpc_client.py:106,Gathering node data
+2019-03-04,06:16:55.553526,DBG,db_read.py:155,Node destroyed
+2019-03-04,06:16:55.553692,ERROR,db_read.py:378,Node destroyed
+2019-03-04,06:16:55.554159,INFO,audit_logger.py:332,Gathering node data
+2019-03-04,06:16:55.554454,DBG,log_collector.py:195,Node created
+2019-03-04,06:16:55.555494,INFO,ssh_tunnel.py:330,Gathering node data
+2019-03-04,06:16:55.555975,INFO,http_handler.py:18,Generated binary file
+2019-03-04,06:16:55.556924,ERROR,log_collector.py:53,Node destroyed
+2019-03-04,06:16:55.557108,ERROR,task_generator.py:55,Node created
+2019-03-04,06:16:55.557306,DBG,protobuf_parser.py:154,Creating task
+2019-03-04,06:16:55.557642,DBG,ssh_tunnel.py:38,Fanning out RPC
+2019-03-04,06:16:55.557851,ERROR,publisher.py:232,Generated binary file
+2019-03-04,06:16:55.558134,INFO,gflags_handler.py:294,Gathering logs from all nodes
+2019-03-04,06:16:55.558267,DBG,log_collector.py:349,Fanning out RPC
+2019-03-04,06:16:55.558775,INFO,protobuf_parser.py:110,Node destroyed
+2019-03-04,06:16:55.558933,DBG,db_write.py:28,Gathering logs from all nodes
+2019-03-04,06:16:55.559101,ERROR,http_handler.py:282,Node created
+2019-03-04,06:16:55.559751,INFO,db_write.py:349,Gathering node data
+2019-03-04,06:16:55.560104,INFO,db_write.py:290,Generated binary file
+2019-03-04,06:16:55.560729,ERROR,scheduler.py:21,Creating task
+2019-03-04,06:16:55.561384,INFO,protobuf_parser.py:377,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.561671,ERROR,ssh_tunnel.py:41,Fanning out RPC
+2019-03-04,06:16:55.561854,DBG,wsgi_handler.py:99,Gathering node data
+2019-03-04,06:16:55.562537,DBG,gflags_handler.py:23,Generated binary file
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BasicAuthRequiredError , - , Username not provided
+2019-03-04,06:16:55.564865,ERROR,fanout.py:269,Gathering logs from all nodes
+2019-03-04,06:16:55.565187,INFO,fanout.py:301,Node created
+2019-03-04,06:16:55.565828,DBG,task_generator.py:311,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.566863,DBG,gflags_handler.py:29,Creating task
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 75, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BasicAuthRequiredError , - , Authentication not provided
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , BadRequestError , - , Request buffer too large
+2019-03-04,06:16:55.568200,INFO,audit_logger.py:52,Generated binary file
+2019-03-04,06:16:55.568269,ERROR,protobuf_parser.py:349,Creating task
+2019-03-04,06:16:55.568833,ERROR,rpc_client.py:262,Gathering logs from all nodes
+2019-03-04,06:16:55.570620,DBG,alert_manager.py:230,Node created
+2019-03-04,06:16:55.572053,ERROR,gflags_handler.py:307,Node destroyed
+2019-03-04,06:16:55.572485,ERROR,db_read.py:112,Generated binary file
+2019-03-04,06:16:55.572551,DBG,ssh_tunnel.py:72,Node created
+2019-03-04,06:16:55.572900,ERROR,scheduler.py:297,Fanning out RPC
+2019-03-04,06:16:55.574338,DBG,ssh_tunnel.py:174,Gathering node data
+2019-03-04,06:16:55.574478,INFO,db_read.py:377,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.576123,INFO,scheduler.py:305,Node destroyed
+2019-03-04,06:16:55.576268,INFO,http_handler.py:106,Creating task
+2019-03-04,06:16:55.576365,INFO,ssh_tunnel.py:292,Creating task
+2019-03-04,06:16:55.577723,DBG,fanout.py:154,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.579022,DBG,db_write.py:45,Gathering node data
+2019-03-04,06:16:55.579402,ERROR,task_generator.py:351,Gathering node data
+2019-03-04,06:16:55.580074,INFO,publisher.py:179,Gathering node data
+2019-03-04,06:16:55.580480,INFO,alert_manager.py:280,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.580921,DBG,scheduler.py:137,Node destroyed
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 86, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , BadRequestError , - , Request buffer too large
+2019-03-04,06:16:55.581984,DBG,protobuf_parser.py:306,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.583493,INFO,fanout.py:209,Fanning out RPC
+2019-03-04,06:16:55.585437,ERROR,fanout.py:316,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.585898,ERROR,scheduler.py:393,Fanning out RPC
+2019-03-04,06:16:55.586102,INFO,scheduler.py:335,Generated binary file
+2019-03-04,06:16:55.586525,DBG,db_write.py:341,Node created
+2019-03-04,06:16:55.586635,ERROR,db_read.py:73,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.587062,INFO,gflags_handler.py:398,Gathering logs from all nodes
+2019-03-04,06:16:55.588373,INFO,gflags_handler.py:282,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.589839,INFO,scheduler.py:385,Creating task
+2019-03-04,06:16:55.591414,DBG,audit_logger.py:283,Fanning out RPC
+2019-03-04,06:16:55.592638,ERROR,db_read.py:171,Gathering node data
+2019-03-04,06:16:55.593527,ERROR,gflags_handler.py:175,Creating task
+2019-03-04,06:16:55.594309,INFO,alert_manager.py:356,Fanning out RPC
+2019-03-04,06:16:55.594937,DBG,task_generator.py:327,Gathering logs from all nodes
+2019-03-04,06:16:55.595633,ERROR,alert_manager.py:241,Node destroyed
+2019-03-04,06:16:55.595840,INFO,wsgi_handler.py:88,Gathering logs from all nodes
+2019-03-04,06:16:55.596700,INFO,wsgi_handler.py:37,Gathering logs from all nodes
+2019-03-04,06:16:55.597055,DBG,task_generator.py:279,Gathering logs from all nodes
+2019-03-04,06:16:55.598505,DBG,http_handler.py:200,Node created
+2019-03-04,06:16:55.599258,INFO,audit_logger.py:242,Fanning out RPC
+2019-03-04,06:16:55.599438,ERROR,alert_manager.py:298,Creating task
+2019-03-04,06:16:55.601328,DBG,task_generator.py:348,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.601794,INFO,db_read.py:268,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.601895,ERROR,log_collector.py:26,Node created
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , ConflictError , - , Conflicting data types
+2019-03-04,06:16:55.603096,ERROR,db_read.py:89,Generated binary file
+2019-03-04,06:16:55.603996,DBG,protobuf_parser.py:17,Node destroyed
+2019-03-04,06:16:55.606994,INFO,log_collector.py:64,Node created
+2019-03-04,06:16:55.607859,INFO,ssh_tunnel.py:240,Gathering node data
+2019-03-04,06:16:55.609691,DBG,ssh_tunnel.py:388,Gathering logs from all nodes
+2019-03-04,06:16:55.609928,DBG,protobuf_parser.py:39,Fanning out RPC
+2019-03-04,06:16:55.610413,ERROR,protobuf_parser.py:73,Creating task
+2019-03-04,06:16:55.610566,ERROR,log_collector.py:228,Gathering logs from all nodes
+ - , - ,  File "./random_traceback.py", line 103, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 70, Traceback in extract_metadata
+ - , - , BadRequestError , - , Malformed request
+2019-03-04,06:16:55.611521,DBG,alert_manager.py:32,Creating task
+2019-03-04,06:16:55.611656,DBG,db_read.py:76,Gathering logs from all nodes
+2019-03-04,06:16:55.611945,ERROR,rpc_client.py:371,Fanning out RPC
+2019-03-04,06:16:55.612231,DBG,scheduler.py:132,Generated binary file
+2019-03-04,06:16:55.612735,ERROR,log_collector.py:183,Generated binary file
+2019-03-04,06:16:55.612980,ERROR,scheduler.py:54,Node created
+2019-03-04,06:16:55.613622,DBG,scheduler.py:373,Gathering logs from all nodes
+2019-03-04,06:16:55.614083,DBG,gflags_handler.py:84,Gathering node data
+2019-03-04,06:16:55.615237,ERROR,protobuf_parser.py:229,Creating task
+2019-03-04,06:16:55.616179,INFO,audit_logger.py:275,Node destroyed
+2019-03-04,06:16:55.616477,DBG,gflags_handler.py:44,Node destroyed
+2019-03-04,06:16:55.616867,INFO,db_read.py:146,Gathering node data
+2019-03-04,06:16:55.618178,INFO,gflags_handler.py:20,Fanning out RPC
+2019-03-04,06:16:55.618321,INFO,ssh_tunnel.py:213,Gathering logs from all nodes
+2019-03-04,06:16:55.620410,DBG,db_write.py:255,Gathering node data
+2019-03-04,06:16:55.620757,ERROR,db_read.py:114,Gathering node data
+2019-03-04,06:16:55.620897,ERROR,task_generator.py:208,Gathering logs from all nodes
+2019-03-04,06:16:55.621260,INFO,http_handler.py:183,Creating task
+2019-03-04,06:16:55.622089,INFO,http_handler.py:152,Node destroyed
+2019-03-04,06:16:55.622892,ERROR,audit_logger.py:389,Node destroyed
+2019-03-04,06:16:55.623138,DBG,http_handler.py:292,Node created
+2019-03-04,06:16:55.623248,INFO,alert_manager.py:297,Creating task
+2019-03-04,06:16:55.623338,DBG,rpc_client.py:180,Gathering logs from all nodes
+2019-03-04,06:16:55.623603,ERROR,ssh_tunnel.py:331,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.623864,DBG,gflags_handler.py:111,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.624088,INFO,db_read.py:247,Gathering node data
+2019-03-04,06:16:55.624253,INFO,protobuf_parser.py:292,Generated binary file
+2019-03-04,06:16:55.626637,DBG,publisher.py:88,Fanning out RPC
+2019-03-04,06:16:55.627043,INFO,protobuf_parser.py:192,Node destroyed
+2019-03-04,06:16:55.627553,INFO,ssh_tunnel.py:343,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.628046,INFO,log_collector.py:399,Gathering logs from all nodes
+2019-03-04,06:16:55.628214,ERROR,publisher.py:174,Node destroyed
+2019-03-04,06:16:55.628472,INFO,db_write.py:202,Gathering logs from all nodes
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 77, Traceback in return_output
+ - , - ,  File "./random_traceback.py", line 59, Traceback in get_data
+ - , - , BasicAuthRequiredError , - , Authentication not provided
+2019-03-04,06:16:55.628990,DBG,task_generator.py:95,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.629325,DBG,ssh_tunnel.py:374,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.630193,DBG,audit_logger.py:352,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.630371,DBG,rpc_client.py:310,Creating task
+ - , - ,  File "./random_traceback.py", line 108, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 81, Traceback in return_output
+ - , - , InvalidArgumentError , - , Provided too few arguments
+2019-03-04,06:16:55.631985,ERROR,gflags_handler.py:390,Generated binary file
+2019-03-04,06:16:55.632684,DBG,task_generator.py:275,Node destroyed
+2019-03-04,06:16:55.633259,DBG,audit_logger.py:63,Node destroyed
+2019-03-04,06:16:55.633647,ERROR,db_write.py:336,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.633780,ERROR,publisher.py:5,Fanning out RPC
+2019-03-04,06:16:55.634853,DBG,scheduler.py:323,Gathering logs from all nodes
+2019-03-04,06:16:55.635504,DBG,task_generator.py:104,Creating task
+2019-03-04,06:16:55.635586,ERROR,alert_manager.py:260,Fanning out RPC
+2019-03-04,06:16:55.635761,INFO,audit_logger.py:118,Creating task
+2019-03-04,06:16:55.635983,INFO,db_read.py:357,Node created
+2019-03-04,06:16:55.636238,ERROR,db_write.py:278,Creating task
+2019-03-04,06:16:55.637215,ERROR,fanout.py:15,Generated binary file
+2019-03-04,06:16:55.637454,ERROR,publisher.py:251,Creating task
+2019-03-04,06:16:55.637869,ERROR,task_generator.py:255,Node destroyed
+2019-03-04,06:16:55.638181,ERROR,log_collector.py:315,Gathering node data
+2019-03-04,06:16:55.638296,DBG,alert_manager.py:155,Node created
+2019-03-04,06:16:55.639671,ERROR,gflags_handler.py:95,Fanning out RPC
+2019-03-04,06:16:55.640219,INFO,audit_logger.py:356,Gathering node data
+2019-03-04,06:16:55.640415,ERROR,audit_logger.py:188,Gathering node data
+2019-03-04,06:16:55.640886,ERROR,gflags_handler.py:133,Node created
+2019-03-04,06:16:55.641016,INFO,audit_logger.py:302,Gathering logs from all nodes
+2019-03-04,06:16:55.641478,DBG,alert_manager.py:350,Gathering logs from all nodes
+2019-03-04,06:16:55.641717,DBG,alert_manager.py:181,Node created
+2019-03-04,06:16:55.642860,DBG,log_collector.py:372,Gathering logs from all nodes
+2019-03-04,06:16:55.642974,INFO,ssh_tunnel.py:147,Gathering node data
+2019-03-04,06:16:55.643397,INFO,db_read.py:140,Gathering logs from all nodes
+2019-03-04,06:16:55.644194,DBG,log_collector.py:261,Fanning out RPC
+2019-03-04,06:16:55.645372,ERROR,audit_logger.py:395,Gathering logs from all nodes
+2019-03-04,06:16:55.645996,ERROR,db_read.py:135,Gathering logs from all nodes
+2019-03-04,06:16:55.646987,INFO,db_write.py:392,Generated binary file
+2019-03-04,06:16:55.647078,DBG,rpc_client.py:384,Fanning out RPC
+2019-03-04,06:16:55.647339,ERROR,wsgi_handler.py:272,Gathering logs from all nodes
+2019-03-04,06:16:55.647971,ERROR,ssh_tunnel.py:235,Generated binary file
+2019-03-04,06:16:55.648177,DBG,rpc_client.py:45,Creating task
+2019-03-04,06:16:55.648359,INFO,publisher.py:99,Node destroyed
+2019-03-04,06:16:55.648799,ERROR,gflags_handler.py:346,Generated binary file
+2019-03-04,06:16:55.649095,DBG,audit_logger.py:18,Node destroyed
+2019-03-04,06:16:55.650204,DBG,alert_manager.py:125,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.650708,DBG,wsgi_handler.py:122,Node destroyed
+2019-03-04,06:16:55.651293,DBG,protobuf_parser.py:372,Node created
+2019-03-04,06:16:55.652083,ERROR,db_read.py:55,Node destroyed
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 88, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 88, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 88, Traceback in get_attributes
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , BasicAuthRequiredError , - , Authentication not provided
+2019-03-04,06:16:55.653489,INFO,audit_logger.py:381,Combining logs from all nodes into single log file
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , BadRequestError , - , Request buffer too small
+2019-03-04,06:16:55.655125,DBG,scheduler.py:162,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.655246,INFO,fanout.py:224,Gathering node data
+2019-03-04,06:16:55.655380,INFO,http_handler.py:2,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.656456,ERROR,db_write.py:49,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.656615,DBG,scheduler.py:108,Gathering logs from all nodes
+2019-03-04,06:16:55.658078,INFO,audit_logger.py:6,Gathering logs from all nodes
+2019-03-04,06:16:55.658258,DBG,log_collector.py:83,Gathering logs from all nodes
+2019-03-04,06:16:55.658497,DBG,wsgi_handler.py:194,Creating task
+2019-03-04,06:16:55.659828,DBG,wsgi_handler.py:122,Node created
+2019-03-04,06:16:55.660038,ERROR,audit_logger.py:311,Gathering node data
+2019-03-04,06:16:55.660303,ERROR,db_write.py:363,Node destroyed
+2019-03-04,06:16:55.660534,INFO,gflags_handler.py:156,Combining logs from all nodes into single log file
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , InvalidArgumentError , - , Provided too many arguments
+2019-03-04,06:16:55.660837,DBG,http_handler.py:132,Fanning out RPC
+2019-03-04,06:16:55.661864,ERROR,task_generator.py:40,Combining logs from all nodes into single log file
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , BadRequestError , - , Request buffer too small
+2019-03-04,06:16:55.662940,ERROR,task_generator.py:163,Gathering logs from all nodes
+2019-03-04,06:16:55.663502,DBG,scheduler.py:386,Node destroyed
+2019-03-04,06:16:55.663919,ERROR,wsgi_handler.py:200,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.664646,DBG,publisher.py:282,Fanning out RPC
+2019-03-04,06:16:55.665157,DBG,http_handler.py:197,Node destroyed
+2019-03-04,06:16:55.665404,INFO,fanout.py:196,Fanning out RPC
+2019-03-04,06:16:55.665844,DBG,task_generator.py:263,Gathering logs from all nodes
+2019-03-04,06:16:55.666553,ERROR,rpc_client.py:207,Fanning out RPC
+2019-03-04,06:16:55.666897,INFO,ssh_tunnel.py:307,Gathering node data
+2019-03-04,06:16:55.667026,INFO,db_write.py:294,Node created
+2019-03-04,06:16:55.667353,ERROR,ssh_tunnel.py:20,Generated binary file
+2019-03-04,06:16:55.667441,ERROR,task_generator.py:96,Combining logs from all nodes into single log file
+2019-03-04,06:16:55.667855,DBG,alert_manager.py:272,Fanning out RPC
+ - , - ,  File "./random_traceback.py", line 113, Traceback in get_random_error_string
+ - , - ,  File "./random_traceback.py", line 92, Traceback in get_attributes
+ - , - , MissingAttributeError , - , Attribute not provided
+2019-03-04,06:16:55.668759,DBG,protobuf_parser.py:178,Gathering logs from all nodes
+2019-03-04,06:16:55.669022,DBG,log_collector.py:36,Fanning out RPC
+2019-03-04,06:16:55.669481,DBG,task_generator.py:12,Gathering node data
+2019-03-04,06:16:55.670017,ERROR,publisher.py:344,Node destroyed

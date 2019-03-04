@@ -1,0 +1,50 @@
+2019-03-02 21:58:43.004692 ERROR scheduler.py:393 Node created
+2019-03-02 21:58:43.004916 ERROR alert_manager.py:177 Gathering node data
+2019-03-02 21:58:43.005126 ERROR http_handler.py:337 Gathering logs from all nodes
+2019-03-02 21:58:43.005178 ERROR http_handler.py:202 Combining logs from all nodes into single log file
+2019-03-02 21:58:43.005230 ERROR log_collector.py:371 Gathering logs from all nodes
+2019-03-02 21:58:43.005335 ERROR scheduler.py:21 Gathering logs from all nodes
+2019-03-02 21:58:43.005643 ERROR db_write.py:84 Gathering logs from all nodes
+2019-03-02 21:58:43.005794 ERROR http_handler.py:345 Node destroyed
+2019-03-02 21:58:43.006113 ERROR rpc_client.py:52 Creating task
+2019-03-02 21:58:43.006175 ERROR fanout.py:167 Generated binary file
+2019-03-02 21:58:43.006282 ERROR publisher.py:316 Combining logs from all nodes into single log file
+2019-03-02 21:58:43.006333 ERROR fanout.py:324 Gathering node data
+2019-03-02 21:58:43.006385 ERROR wsgi_handler.py:41 Combining logs from all nodes into single log file
+2019-03-02 21:58:43.006436 ERROR protobuf_parser.py:121 Gathering logs from all nodes
+2019-03-02 21:58:43.006881 ERROR ssh_tunnel.py:289 Combining logs from all nodes into single log file
+2019-03-02 21:58:43.006985 ERROR log_collector.py:27 Node destroyed
+2019-03-02 21:58:43.007037 ERROR wsgi_handler.py:12 Fanning out RPC
+2019-03-02 21:58:43.007497 ERROR publisher.py:349 Node destroyed
+2019-03-02 21:58:43.008137 ERROR audit_logger.py:400 Generated binary file
+2019-03-02 21:58:43.008345 ERROR rpc_client.py:267 Fanning out RPC
+2019-03-02 21:58:43.008396 ERROR rpc_client.py:19 Node created
+2019-03-02 21:58:43.008446 ERROR ssh_tunnel.py:300 Gathering node data
+2019-03-02 21:58:43.008877 ERROR task_generator.py:272 Gathering logs from all nodes
+2019-03-02 21:58:43.009131 ERROR gflags_handler.py:211 Combining logs from all nodes into single log file
+2019-03-02 21:58:43.009374 ERROR rpc_client.py:225 Creating task
+2019-03-02 21:58:43.009423 ERROR rpc_client.py:102 Fanning out RPC
+2019-03-02 21:58:43.009834 ERROR gflags_handler.py:323 Node destroyed
+2019-03-02 21:58:43.010071 ERROR publisher.py:131 Gathering node data
+2019-03-02 21:58:43.010121 ERROR gflags_handler.py:49 Creating task
+2019-03-02 21:58:43.010581 ERROR alert_manager.py:22 Gathering node data
+2019-03-02 21:58:43.010686 ERROR protobuf_parser.py:159 Gathering node data
+2019-03-02 21:58:43.010981 ERROR wsgi_handler.py:129 Creating task
+2019-03-02 21:58:43.011590 ERROR fanout.py:340 Gathering node data
+2019-03-02 21:58:43.011798 ERROR gflags_handler.py:151 Creating task
+2019-03-02 21:58:43.011848 ERROR gflags_handler.py:332 Combining logs from all nodes into single log file
+2019-03-02 21:58:43.012114 ERROR db_read.py:321 Creating task
+2019-03-02 21:58:43.012400 ERROR audit_logger.py:167 Gathering node data
+2019-03-02 21:58:43.012711 ERROR scheduler.py:176 Creating task
+2019-03-02 21:58:43.012814 ERROR scheduler.py:376 Combining logs from all nodes into single log file
+2019-03-02 21:58:43.012875 ERROR http_handler.py:217 Generated binary file
+2019-03-02 21:58:43.012928 ERROR protobuf_parser.py:113 Node destroyed
+2019-03-02 21:58:43.013079 ERROR gflags_handler.py:27 Fanning out RPC
+2019-03-02 21:58:43.013434 ERROR gflags_handler.py:115 Node created
+2019-03-02 21:58:43.013585 ERROR rpc_client.py:74 Node destroyed
+2019-03-02 21:58:43.013634 ERROR ssh_tunnel.py:236 Node created
+2019-03-02 21:58:43.013786 ERROR rpc_client.py:268 Combining logs from all nodes into single log file
+2019-03-02 21:58:43.014243 ERROR task_generator.py:43 Fanning out RPC
+2019-03-02 21:58:43.014344 ERROR publisher.py:51 Node created
+2019-03-02 21:58:43.014446 ERROR scheduler.py:206 Combining logs from all nodes into single log file
+2019-03-02 21:58:43.015079 ERROR publisher.py:162 Fanning out RPC

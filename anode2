@@ -1,0 +1,68 @@
+2019-03-03 09:49:19.924956 DBG alert_manager.py:137 Node destroyed
+2019-03-03 09:49:19.925067 DBG db_write.py:84 Gathering logs from all nodes
+2019-03-03 09:49:19.925155 INFO db_write.py:136 Node destroyed
+2019-03-03 09:49:19.925359 DBG http_handler.py:86 Creating task
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 75, in return_output
+  File "./random_traceback.py", line 70, in extract_metadata
+MissingAttributeError: Extra attribute needed
+2019-03-03 09:49:19.925792 INFO db_read.py:248 Combining logs from all nodes into single log file
+2019-03-03,14:49:08.080779,ERROR,db_write.py:374,Gathering node data
+2019-03-03,14:49:08.080937,INFO,alert_manager.py:78,Gathering node data
+2019-03-03,14:49:08.081238,INFO,wsgi_handler.py:47,Fanning out RPC
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 113, in get_random_error_string
+,,File,"./random_traceback.py",,line 92, in get_attributes
+ConflictError:,Conflicting,data,types,
+2019-03-03,14:49:08.081633,INFO,scheduler.py:92,Creating task
+2019-03-03,14:49:08.081886,INFO,rpc_client.py:275,Combining logs from all nodes into single log file
+2019-03-03,14:49:08.082114,ERROR,http_handler.py:394,Combining logs from all nodes into single log file
+2019-03-03,14:49:08.082298,INFO,publisher.py:39,Node destroyed
+2019-03-03,14:49:08.082411,INFO,http_handler.py:299,Generated binary file
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 113, in get_random_error_string
+,,File,"./random_traceback.py",,line 92, in get_attributes
+InvalidArgumentError:,Provided,too,many,arguments
+2019-03-03,14:49:08.082858,DBG,fanout.py:241,Node destroyed
+2019-03-03,14:49:08.083152,ERROR,publisher.py:204,Fanning out RPC
+2019-03-03,14:49:08.083311,DBG,ssh_tunnel.py:347,Combining logs from all nodes into single log file
+2019-03-03,14:49:08.083455,ERROR,wsgi_handler.py:1,Gathering node data2019-03-03,14:50:07.679748,DBG,ssh_tunnel.py:309,Fanning out RPC
+2019-03-03,14:50:07.679908,DBG,http_handler.py:55,Node created
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 108, in get_random_error_string
+,,File,"./random_traceback.py",,line 75, in return_output
+,,File,"./random_traceback.py",,line 70, in extract_metadata
+MissingAttributeError:,Attribute,not,provided,
+2019-03-03,14:50:07.680272,ERROR,log_collector.py:28,Node created
+2019-03-03,14:50:07.680333,DBG,log_collector.py:118,Gathering node data
+2019-03-03,14:50:07.680598,ERROR,db_read.py:193,Node destroyed
+2019-03-03,14:50:07.680698,DBG,publisher.py:362,Gathering logs from all nodes
+2019-03-03,14:50:07.680962,ERROR,log_collector.py:139,Node destroyed
+2019-03-03,14:50:07.681176,DBG,protobuf_parser.py:372,Fanning out RPC
+2019-03-03,14:50:07.681226,ERROR,rpc_client.py:284,Fanning out RPC
+2019-03-03,14:50:07.681395,INFO,fanout.py:339,Creating task
+2019-03-03,14:50:07.681527,ERROR,fanout.py:71,Gathering node data
+2019-03-03,14:50:07.681705,INFO,gflags_handler.py:34,Combining logs from all nodes into single log file
+2019-03-03,14:50:07.681818,ERROR,rpc_client.py:216,Creating task
+2019-03-03,14:50:07.681900,ERROR,fanout.py:271,Gathering node data
+2019-03-03,14:50:07.682064,ERROR,protobuf_parser.py:156,Creating taskTraceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 108, in get_random_error_string
+,,File,"./random_traceback.py",,line 77, in return_output
+,,File,"./random_traceback.py",,line 53, in get_data
+,,File,"./random_traceback.py",,line 70, in extract_metadata
+InvalidArgumentError:,Provided,too,few,arguments
+2019-03-03,14:54:06.085066,DBG,gflags_handler.py:17,Gathering logs from all nodes
+2019-03-03,14:54:06.085154,ERROR,fanout.py:255,Combining logs from all nodes into single log file
+2019-03-03,14:54:06.085229,DBG,protobuf_parser.py:271,Gathering node data
+2019-03-03,14:54:06.085313,DBG,audit_logger.py:349,Creating task
+2019-03-03,14:54:06.085450,DBG,audit_logger.py:79,Node destroyed
+2019-03-03,14:54:06.085596,ERROR,http_handler.py:266,Generated binary file
+2019-03-03,14:54:06.085677,INFO,gflags_handler.py:32,Gathering logs from all nodes
+2019-03-03,14:54:06.085761,ERROR,http_handler.py:38,Node created
+2019-03-03,14:54:06.085908,INFO,log_collector.py:16,Gathering node data
+2019-03-03,14:54:06.086156,ERROR,db_write.py:75,Gathering node data
+2019-03-03,14:54:06.086445,INFO,log_collector.py:29,Node destroyed
+2019-03-03,14:54:06.086571,INFO,ssh_tunnel.py:10,Creating task
+2019-03-03,14:54:06.086726,INFO,ssh_tunnel.py:350,Node destroyed
+2019-03-03,14:54:06.086784,INFO,scheduler.py:14,Generated binary file

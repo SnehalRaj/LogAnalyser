@@ -1,0 +1,58 @@
+2019-03-03,14:49:08.132478,ERROR,task_generator.py:281,Node destroyed
+2019-03-03,14:49:08.132647,DBG,audit_logger.py:145,Node created
+2019-03-03,14:49:08.132857,ERROR,http_handler.py:69,Gathering node data
+2019-03-03,14:49:08.132920,ERROR,alert_manager.py:181,Generated binary file
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 98, in get_random_error_string
+,,File,"./random_traceback.py",,line 59, in get_data
+BadRequestError:,Special,Characters,not,allowed
+2019-03-03,14:49:08.133249,INFO,task_generator.py:237,Gathering logs from all nodes
+2019-03-03,14:49:08.133445,ERROR,wsgi_handler.py:185,Node created
+2019-03-03,14:49:08.133561,ERROR,db_write.py:370,Node destroyed
+2019-03-03,14:49:08.133658,INFO,wsgi_handler.py:170,Node created
+2019-03-03,14:49:08.133856,DBG,publisher.py:68,Combining logs from all nodes into single log file
+2019-03-03,14:49:08.134148,ERROR,ssh_tunnel.py:192,Node created
+2019-03-03,14:49:08.134465,ERROR,wsgi_handler.py:122,Creating task
+2019-03-03,14:49:08.134519,ERROR,ssh_tunnel.py:76,Combining logs from all nodes into single log file
+2019-03-03,14:49:08.134595,ERROR,protobuf_parser.py:265,Generated binary file
+2019-03-03,14:49:08.134739,DBG,publisher.py:266,Gathering node data
+2019-03-03,14:49:08.134960,INFO,publisher.py:123,Gathering logs from all nodes
+2019-03-03,14:49:08.135170,DBG,db_write.py:359,Node destroyed2019-03-03,14:50:07.735032,ERROR,audit_logger.py:144,Fanning out RPC
+2019-03-03,14:50:07.735187,INFO,gflags_handler.py:353,Node destroyed
+2019-03-03,14:50:07.735449,DBG,ssh_tunnel.py:301,Generated binary file
+2019-03-03,14:50:07.735616,ERROR,protobuf_parser.py:162,Combining logs from all nodes into single log file
+2019-03-03,14:50:07.735714,ERROR,publisher.py:332,Generated binary file
+2019-03-03,14:50:07.735787,DBG,alert_manager.py:64,Gathering node data
+2019-03-03,14:50:07.735926,INFO,scheduler.py:251,Generated binary file
+2019-03-03,14:50:07.736029,ERROR,http_handler.py:228,Gathering logs from all nodes
+2019-03-03,14:50:07.736242,ERROR,db_read.py:81,Gathering logs from all nodes
+2019-03-03,14:50:07.736394,ERROR,protobuf_parser.py:337,Gathering logs from all nodes
+2019-03-03,14:50:07.736468,DBG,task_generator.py:319,Fanning out RPC
+2019-03-03,14:50:07.736587,DBG,scheduler.py:58,Fanning out RPC
+2019-03-03,14:50:07.736759,DBG,scheduler.py:291,Combining logs from all nodes into single log file
+2019-03-03,14:50:07.736948,ERROR,log_collector.py:105,Gathering logs from all nodes
+2019-03-03,14:50:07.736989,DBG,fanout.py:85,Creating task
+2019-03-03,14:50:07.737150,INFO,wsgi_handler.py:28,Generated binary file
+2019-03-03,14:50:07.737487,DBG,ssh_tunnel.py:228,Combining logs from all nodes into single log file
+2019-03-03,14:50:07.737594,INFO,scheduler.py:81,Gathering logs from all nodes
+2019-03-03,14:50:07.737685,INFO,rpc_client.py:180,Node destroyed
+2019-03-03,14:50:07.737830,ERROR,log_collector.py:325,Combining logs from all nodes into single log file2019-03-03,14:54:06.137542,DBG,rpc_client.py:190,Node destroyed
+2019-03-03,14:54:06.137719,DBG,ssh_tunnel.py:161,Creating task
+2019-03-03,14:54:06.137832,INFO,publisher.py:339,Node destroyed
+2019-03-03,14:54:06.137923,DBG,db_read.py:95,Generated binary file
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 113, in get_random_error_string
+,,File,"./random_traceback.py",,line 92, in get_attributes
+BasicAuthRequiredError:,Password,not,provided,
+2019-03-03,14:54:06.138322,DBG,fanout.py:289,Generated binary file
+2019-03-03,14:54:06.138445,INFO,scheduler.py:137,Gathering logs from all nodes
+2019-03-03,14:54:06.138599,DBG,gflags_handler.py:130,Gathering node data
+2019-03-03,14:54:06.138688,DBG,gflags_handler.py:159,Node created
+2019-03-03,14:54:06.138898,DBG,fanout.py:398,Node created
+2019-03-03,14:54:06.139006,INFO,alert_manager.py:47,Fanning out RPC
+2019-03-03,14:54:06.139182,ERROR,wsgi_handler.py:392,Generated binary file
+2019-03-03,14:54:06.139485,ERROR,ssh_tunnel.py:371,Gathering node data
+2019-03-03,14:54:06.139599,INFO,db_read.py:397,Gathering node data
+2019-03-03,14:54:06.139717,DBG,gflags_handler.py:176,Gathering logs from all nodes
+2019-03-03,14:54:06.139877,DBG,fanout.py:32,Generated binary file
+2019-03-03,14:54:06.140148,INFO,gflags_handler.py:216,Gathering node data

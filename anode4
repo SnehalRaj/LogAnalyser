@@ -1,0 +1,68 @@
+2019-03-03 09:49:20.532600 ERROR ssh_tunnel.py:66 Generated binary file
+2019-03-03 09:49:20.532777 ERROR db_read.py:323 Gathering logs from all nodes
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 75, in return_output
+  File "./random_traceback.py", line 70, in extract_metadata
+ConflictError: Conflicting data types
+2019-03-03 09:49:20.533299 DBG log_collector.py:336 Node destroyed
+2019-03-03 09:49:20.533581 ERROR ssh_tunnel.py:317 Fanning out RPC
+2019-03-03 09:49:20.533700 INFO publisher.py:292 Gathering logs from all nodes
+2019-03-03,14:49:08.118468,DBG,task_generator.py:309,Gathering node data
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 98, in get_random_error_string
+,,File,"./random_traceback.py",,line 59, in get_data
+InvalidArgumentError:,Provided,too,few,arguments
+2019-03-03,14:49:08.118892,INFO,wsgi_handler.py:68,Node created
+2019-03-03,14:49:08.119026,INFO,wsgi_handler.py:299,Creating task
+2019-03-03,14:49:08.119143,INFO,ssh_tunnel.py:211,Gathering logs from all nodes
+2019-03-03,14:49:08.119245,ERROR,rpc_client.py:262,Node destroyed
+2019-03-03,14:49:08.119339,ERROR,scheduler.py:338,Gathering logs from all nodes
+2019-03-03,14:49:08.119479,INFO,audit_logger.py:335,Gathering logs from all nodes
+2019-03-03,14:49:08.119557,ERROR,db_read.py:82,Gathering logs from all nodes
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 98, in get_random_error_string
+,,File,"./random_traceback.py",,line 59, in get_data
+ConflictError:,Conflicting,data,types,
+2019-03-03,14:49:08.119908,DBG,wsgi_handler.py:360,Node created
+2019-03-03,14:49:08.120038,DBG,scheduler.py:173,Node destroyed
+2019-03-03,14:49:08.120094,INFO,http_handler.py:177,Combining logs from all nodes into single log file
+2019-03-03,14:49:08.120215,INFO,http_handler.py:151,Combining logs from all nodes into single log file2019-03-03,14:50:07.716902,DBG,protobuf_parser.py:21,Fanning out RPC
+2019-03-03,14:50:07.716997,INFO,rpc_client.py:395,Generated binary file
+2019-03-03,14:50:07.717183,INFO,wsgi_handler.py:270,Gathering logs from all nodes
+2019-03-03,14:50:07.717294,DBG,protobuf_parser.py:266,Creating task
+2019-03-03,14:50:07.717427,DBG,rpc_client.py:29,Generated binary file
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 108, in get_random_error_string
+,,File,"./random_traceback.py",,line 81, in return_output
+BadRequestError:,Malformed,request,
+2019-03-03,14:50:07.717631,ERROR,db_read.py:323,Node destroyed
+2019-03-03,14:50:07.717693,ERROR,alert_manager.py:224,Creating task
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 113, in get_random_error_string
+,,File,"./random_traceback.py",,line 88, in get_attributes
+,,File,"./random_traceback.py",,line 88, in get_attributes
+,,File,"./random_traceback.py",,line 86, in get_attributes
+,,File,"./random_traceback.py",,line 53, in get_data
+,,File,"./random_traceback.py",,line 70, in extract_metadata
+BadRequestError:,Special,Characters,not,allowed
+2019-03-03,14:50:07.718027,DBG,db_read.py:396,Creating task,,File,"./random_traceback.py",,line 108, in get_random_error_string
+,,File,"./random_traceback.py",,line 81, in return_output
+BasicAuthRequiredError:,Authentication,not,provided,
+2019-03-03,14:54:06.120320,INFO,ssh_tunnel.py:229,Gathering logs from all nodes
+2019-03-03,14:54:06.120462,DBG,wsgi_handler.py:213,Node created
+2019-03-03,14:54:06.120655,INFO,task_generator.py:182,Fanning out RPC
+2019-03-03,14:54:06.120811,DBG,log_collector.py:279,Combining logs from all nodes into single log file
+Traceback,(most,recent,call,last):
+,,File,"./random_traceback.py",,line 113, in get_random_error_string
+,,File,"./random_traceback.py",,line 88, in get_attributes
+,,File,"./random_traceback.py",,line 92, in get_attributes
+BasicAuthRequiredError:,Password,not,provided,
+2019-03-03,14:54:06.121219,ERROR,ssh_tunnel.py:65,Generated binary file
+2019-03-03,14:54:06.121303,ERROR,scheduler.py:358,Node created
+2019-03-03,14:54:06.121369,DBG,ssh_tunnel.py:325,Creating task
+2019-03-03,14:54:06.121553,DBG,scheduler.py:104,Gathering node data
+2019-03-03,14:54:06.121720,DBG,publisher.py:323,Generated binary file
+2019-03-03,14:54:06.121976,INFO,log_collector.py:103,Gathering node data
+2019-03-03,14:54:06.122065,INFO,db_read.py:220,Gathering node data
+2019-03-03,14:54:06.122102,DBG,rpc_client.py:68,Node destroyed

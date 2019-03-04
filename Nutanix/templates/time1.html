@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+    <h2>Get the time span data</h2>
+    n:<input type="number" name="n_time" value="n_time"> <br>
+    p:<input type="number" name="p_time" value="p_time"><br>
+    time start:<input type="text" name="date_start"><br>
+    time end: <input type="text" name="date_end"><br>
+    <button type="submit" name="Time_data" value="True">Print Time data</button>
+    {% if variable3 == 1 %}
+        <pre style="border:1px solid black;height:100px;width:100%;overflow: scroll" >{{ data_time }}</pre>
+    {% endif %}
+</form>
+</body>
+</html>
