@@ -43,7 +43,7 @@ source env/bin/activate
 ```
 Install the project dependencies:
 ```
-pip3 install -r requirements.txt
+sudo pip3 install -r requirements.txt
 
 ```
 
