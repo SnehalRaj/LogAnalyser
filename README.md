@@ -29,17 +29,51 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Clone the repo
 
 ```
-Give the example
+git clone https://github.com/SnehalRaj/LogAnalyser/.git
+```
+create and start a virtual environment
+
+```
+virtualenv env --no-site-packages
+
+source env/bin/activate
+```
+Install the project dependencies:
+```
+pip3 install -r requirements.txt
+
 ```
 
-And repeat
+create a file named "secrets.sh"
+```
+touch secrets.sh (mac and linux)
+```
+Obtain a secret from [MiniWebTool](https://www.miniwebtool.com/django-secret-key-generator/)  and add the following line
+to secrets.sh
 
 ```
-until finished
+export SECRET_KEY='<secret_key>'
 ```
+Add the following line to .gitignore file
+```
+secrets.sh
+```
+Then run
+```
+python3 manage.py migrate
+```
+And Finally run 
+
+```
+python3 manage.py runserver
+```
+Now, you can go to [localhost](http://127.0.0.1:8000/) and access the site
+
+NOTE: The logs are continously stored in a file named "log_simulator" inside the cloned repo. Remember to delete this file
+after closing the app!
 
 ### Features
 
