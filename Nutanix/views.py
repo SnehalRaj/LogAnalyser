@@ -12,20 +12,6 @@ from django.shortcuts import render, redirect
 
 import re
 
-# import requests
-# import json
-# import random
-#
-# #for emai start
-# from email.mime.multipart import MIMEMultipart
-# import smtplib
-# from email import encoders
-# from email.mime.text import MIMEText
-# #for email end
-#
-# #for creating excel file
-# import xlsxwriter
-# import ast
 
 
 threads=[]
@@ -74,7 +60,7 @@ def IndexView(request):
         variable = 0
         variable2 = 1
         for i in range(live_n):
-            f = open("/home/harsh/PycharmProjects/CloudInit/anode%d" % (i + 1), "r")
+            f = open("/anode%d" % (i + 1), "r")
             list.append(i)
             data = f.read()
             data2.append((data, i))
@@ -110,7 +96,7 @@ def IndexView(request):
             if ("Stop" in request.POST) and (live_flag != 1):
                 # os.killpg(os.getpgid(pro.pid), signal.SIGTERM)
                 proc1.kill()
-                os.system("rm -rf /home/harsh/PycharmProjects/CloudInit/log_simulator/")
+                os.system("rm -rf log_simulator/")
                 print("####################STOPPED#######################")
                 stop = False
                 for process in threads:
@@ -122,7 +108,7 @@ def IndexView(request):
                 pattern = request.POST["pattern"]
                 number_lines = int(request.POST["number_of_lines"])
                 headTen(n_val, p_val, number_lines, pattern, "/home/harsh/PycharmProjects/CloudInit/log.txt")
-                f = open("/home/harsh/PycharmProjects/CloudInit/log.txt", "r")
+                f = open("log.txt", "r")
                 data = f.read()
                 variable = 1
 
@@ -137,7 +123,7 @@ def IndexView(request):
                 print("Harsh_date")
                 TimeData(n_time, p_time, start, end)
                 print("Harsh_date2")
-                f=open("/home/harsh/PycharmProjects/CloudInit/time.txt", "r")
+                f=open("time.txt", "r")
                 data_time=f.read()
                 variable3 = 1
                 print(data_time)
@@ -219,7 +205,7 @@ def LiveView(request):
         variable2 = 1
         for i in range(live_n):
             # f = open("/home/harsh/PycharmProjects/CloudInit/anode%d" % (i + 1), "r")
-            df = pandas.read_csv("/home/harsh/PycharmProjects/CloudInit/anode%d.csv"%(i+1), sep=',')
+            df = pandas.read_csv("anode%d.csv"%(i+1), sep=',')
             data = df.to_html()
             print(data)
             list.append(i)
@@ -308,7 +294,7 @@ def LiveView(request):
                         # list.append(i)
                         # data = f.read()
                         # data2.append((data, i))
-                        df = pandas.read_csv("/home/harsh/PycharmProjects/CloudInit/anode%d.csv" % (i + 1), sep=',')
+                        df = pandas.read_csv("anode%d.csv" % (i + 1), sep=',')
                         data = df.to_html()
                         list.append(i)
                         data2.append((data, i))
@@ -348,10 +334,10 @@ def TimeView(request):
         print("Harsh_date2")
         # f = open("/home/harsh/PycharmProjects/CloudInit/time.txt", "r")
         # data_time = f.read()
-        df = pandas.read_csv("/home/harsh/PycharmProjects/CloudInit/time.txt", sep=',')
+        df = pandas.read_csv("time.csv", sep=',')
         data_time = df.to_html()
         variable3 = 1
-        print(data_time)
+        # print(data_time)
 
         template = loader.get_template('time.html')
         context = {'variable3': variable3, 'data_time': data_time,
@@ -373,7 +359,7 @@ def TimelineView(request):
     if(request.method == 'POST'):
         number_of_lines = int(request.POST['number_of_lines'])
         timeline(n_global,p_global,number_of_lines)
-        df = pandas.read_csv("/home/harsh/PycharmProjects/CloudInit/timeline.csv", sep=',')
+        df = pandas.read_csv("timeline.csv", sep=',')
         data_timeline = df.to_html()
         variable=1
         print(data_timeline)
@@ -424,7 +410,7 @@ def GraphView(request):
 
 
 def timeline(n,p,num):
-    file_path2="/home/harsh/PycharmProjects/CloudInit/log_simulator/"
+    file_path2="log_simulator/"
     i=1
     while i<=n:
         j=1
@@ -457,7 +443,7 @@ def timeline(n,p,num):
 def process_counts(n, process, num, extra):
     i = 1
     extra = extra.split(',')
-    file_path1='/home/harsh/PycharmProjects/CloudInit/log_simulator/'
+    file_path1='log_simulator/'
     while i <= n:
         filename = file_path1 + 'HackNode' + str(i) + "/Process" + str(process) + ".log"
         count_info = 0
@@ -528,7 +514,7 @@ def barplot(x, y, i, num):
 
 def run_script(n,p):
     global proc1
-    proc1 = subprocess.Popen("python2 /home/harsh/PycharmProjects/CloudInit/log_simulator.zip -n %d -p %d" %(n,p), shell=True)
+    proc1 = subprocess.Popen("python2 log_simulator.zip -n %d -p %d" %(n,p), shell=True)
     # pro = subprocess.Popen("python2 /home/harsh/PycharmProjects/CloudInit/log_simulator.zip -n %d -p %d" %(n,p), stdout=subprocess.PIPE,
     #                        shell=True, preexec_fn=os.setsid)
 
@@ -537,7 +523,7 @@ def run_script(n,p):
 def headTen(node, process, num, pattern, outputfilename):
     # node=input('Enter node number:')
     # process=input('Enter process number:')
-    filename = '/home/harsh/PycharmProjects/CloudInit/log_simulator/HackNode' + str(node) + "/Process" + str(process) + ".log"
+    filename = 'log_simulator/HackNode' + str(node) + "/Process" + str(process) + ".log"
     # pattern = "ERROR"
     FO = open(filename, 'r')
     FR = open(outputfilename, 'w')
@@ -618,7 +604,7 @@ def headTen(node, process, num, pattern, outputfilename):
 
 
 def live(n, process, num, outputfilename):
-    file_path1 = '/home/harsh/PycharmProjects/CloudInit/log_simulator/'
+    file_path1 = 'log_simulator/'
     delay = 0.01
     time.sleep(delay)
     i = 1
@@ -717,24 +703,29 @@ def TimeData(n,p,start,end):
     print(endDate)
 
 
-    date_re = re.compile(r'(\d+-\d+-\d+ \d+:\d+:\d+)')
-    with open("anode%d"%(n), "r") as fh:
+    date_re = re.compile(r'(\d+-\d+-\d+\,\d+:\d+:\d+)')
+    with open("anode%d.csv"%(n), "r") as fh:
         FR = open("time.csv", "w")
         FR.write("Date,Timestamp,Tag,File,Exception" + "\n")
         FR.close()
+        print("Harsh-1")
         for line in fh.readlines():
             match = date_re.search(line)
-
+            # print("Harsh0")
+            # print(match.group(1))
             if match is not None:
+                print("Harsh1")
                 matchDate = match.group(1)
+                print("Harsh2")
                 if matchDate >= startDate and matchDate <= endDate:
+                    print("Harsh3")
                     FR = open("time.csv", 'a+')
-                    t = line.split(" ")
+                    t = line.split(",")
                     a = " ".join(t[4:])
                     b = ",".join(t[0:3])
                     toprint = b + "," + a
-                    FR.write(toprint)
-                    print(toprint)
+                    FR.write(line)
+                    # print(toprint)
 
 
     # date_re = re.compile(r'(\d+-\d+-\d+ \d+:\d+:\d+)')
@@ -759,29 +750,4 @@ def TimeData(n,p,start,end):
     #     data = response.json()
     #     result.append(data['total_clicks'])
     #     return True
-
-
-
-#
-# def generate_bitlinks(request):
-#     if request.method == 'POST':
-#         print(request.POST)
-#         form = BitlinkForm(request.POST)
-#         if form.is_valid():
-#             long_link = form.cleaned_data.get('long_link')
-#             list = request.POST.getlist('check')
-#             threads = []
-#             for ID in list:
-#                 process = Thread(target=work2, args=[ID, long_link])
-#                 process.start()
-#                 threads.append(process)
-#
-#             for process in threads:
-#                 process.join()
-#
-#             return redirect('admin_index')
-#     else:
-#         form = BitlinkForm()
-#         affiliates = Affiliates.objects.filter(Approve_status=1)
-#         return render(request, 'generate_bitlink.html', {'form': form, 'affiliates': affiliates})
-
+   
