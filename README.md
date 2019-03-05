@@ -88,7 +88,7 @@ This will start logging data into a folder called "log_simulator" present inside
 Now you can click on to any of the buttons given in the dashboard to navigate the site.
 
 ### Disclaimer
- The logs are continously stored in a file named "log_simulator" inside the cloned repo. Remember to stop the logging process so that you don't run out of memory!
+ The logs are continously stored in a file named "log_simulator" inside the cloned repo. Remember to stop the logging process by clicking the stop button in the home tab of the app so that you don't run out of memory!
 
 ### Features
 
