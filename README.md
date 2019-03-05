@@ -55,6 +55,11 @@ Install the project dependencies:
 sudo pip3 install -r requirements.txt
 
 ```
+Install django (Run the command again even if you have it)
+```
+pip3 install django
+```
+
 Run the script addkey to add a secret key in your Django project
 ```
 ./addkey
