@@ -55,21 +55,11 @@ Install the project dependencies:
 sudo pip3 install -r requirements.txt
 
 ```
+Run the script addkey to add a secret key in your Django project
+```
+./addkey
+```
 
-create a file named "secrets.sh"
-```
-touch secrets.sh (mac and linux)
-```
-Obtain a secret from [MiniWebTool](https://www.miniwebtool.com/django-secret-key-generator/)  and add the following line
-to secrets.sh
-
-```
-export SECRET_KEY='<secret_key>'
-```
-Add the following line to .gitignore file
-```
-secrets.sh
-```
 Then run
 ```
 python3 manage.py migrate
