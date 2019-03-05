@@ -46,7 +46,7 @@ git clone https://github.com/SnehalRaj/LogAnalyser/.git
 create and start a virtual environment
 
 ```
-virtualenv env --no-site-packages
+virtualenv -p python3 env --no-site-packages
 
 source env/bin/activate
 ```
