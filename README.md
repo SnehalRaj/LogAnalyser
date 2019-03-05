@@ -92,13 +92,13 @@ This will start logging data into a folder called "log_simulator" present inside
 
 Now you can click on to any of the buttons given in the dashboard to navigate the site.
 
-# Live
+#### Live
   This tab would show the live logs corresponding to the nodes and processes entered. The logs are separated into separate tables for separate nodes and updates in real time to show the latest data to the user.
-# Statistics
+#### Statistics
 This tab features an interactive viewing experience of the data collected while logging. The user can input multiple keywords in the search box (separated by comma) and get the data regarding the occurences of the those keywords in a visual format
-# Timestamp View
+#### Timestamp View
 The Timestamp view tab allows the user to filter out logs between two given timestamps. The user can input two timestamps in the format specified and our app automatically filters out logs between the given timestamps and shows the logs in a tabular format
-# Timeline
+#### Timeline
 This tab shows all of the logs which are marked by timestamps in a tabular format.
 
 In all of the tabs, we have used dynamic datatables to shows our logged data. The table allows the user to search and sort based on specific keywords in real time and provides a lot of information in an interactive manner.
