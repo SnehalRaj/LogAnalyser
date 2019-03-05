@@ -1,19 +1,17 @@
 from threading import Thread
 import pandas
 import matplotlib.pyplot as plt
+import shutil
 import os
 import subprocess
 import time
 from django.template import loader
+import signal
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
-# from link_it.core.forms import AffiliateForm,BitlinkForm,AffiliateLoginForm
-# from link_it.models import Affiliates,Bitlinks,Links,Affiliates_login
+
 
 import re
-
-
-
 threads=[]
 stop=False
 proc1 = None
@@ -36,12 +34,12 @@ def IndexView(request):
     global live_pattern
     global req
     global n_global
+    global proc1
     global p_global
     variable=0
     variable2=0
     data=""
 
-    print("YO YO")
     live_flag=0
     if live_flag ==1:
 
@@ -94,9 +92,9 @@ def IndexView(request):
                 print(threads)
 
             if ("Stop" in request.POST) and (live_flag != 1):
-                # os.killpg(os.getpgid(pro.pid), signal.SIGTERM)
-                proc1.kill()
-                os.system("rm -rf log_simulator/")
+                while(os.path.isdir('log_simulator')):
+                    os.system('rm -rf log_simulator')
+
                 print("####################STOPPED#######################")
                 stop = False
                 for process in threads:
@@ -112,62 +110,12 @@ def IndexView(request):
                 data = f.read()
                 variable = 1
 
-            variable3=0
-            data_time=""
-            if ("Time_data" in request.POST):
-                print("Harsh_date")
-                n_time = int(request.POST['n_time'])
-                p_time = int(request.POST['p_time'])
-                start = request.POST['date_start']
-                end = request.POST['date_end']
-                print("Harsh_date")
-                TimeData(n_time, p_time, start, end)
-                print("Harsh_date2")
-                f=open("time.txt", "r")
-                data_time=f.read()
-                variable3 = 1
-                print(data_time)
-
             data2 = []
             list = []
 
-            # if ("Print_live" in request.POST):
-            #     live_n = int(request.POST["n_live"])
-            #     live_p = int(request.POST["p_live"])
-            #     live_pattern = request.POST["live_pattern"]
-            #     print(request.POST)
-            #     print(live_pattern)
-            #     live_number_of_lines = int(request.POST["live_number_of_lines"])
-            #     live_flag = 1
-            #     if live_flag == 1:
-            #         time.sleep(1)
-            #         live(live_n, live_p, live_number_of_lines, live_pattern, "a")
-            #         print("Harsh Hi")
-            #         variable = 0
-            #         variable2 = 1
-            #         for i in range(live_n):
-            #             f = open("/home/harsh/PycharmProjects/CloudInit/anode%d" % (i + 1), "r")
-            #             list.append(i)
-            #             data = f.read()
-            #             data2.append((data, i))
-            #         print(data2)
-            #         print(len(data2))
-            #
-            #
-            #         template = loader.get_template('index.html')
-            #         context = {'variable': variable, 'data': data, 'data2': data2, 'variable2': variable2, 'list': list,
-            #             }
-            #         return HttpResponse(template.render(context, request))
-
-            # if ("Live" in request.POST):
-            #     template = loader.get_template('live.html')
-            #     context = {'variable2': variable2,
-            #                }
-            #     return HttpResponse(template.render(context, request))
-            #     # redirect('live')
 
             template = loader.get_template('index.html')
-            context = {'variable': variable, 'data': data, 'data2': data2, 'variable2': variable2, 'list': list,'variable3':variable3,'data_time':data_time,
+            context = {'variable': variable, 'data': data, 'data2': data2, 'variable2': variable2, 'list': list
                        }
             return HttpResponse(template.render(context, request))
 
@@ -187,7 +135,6 @@ def LiveView(request):
     global live_number_of_lines
     global live_pattern
     global n_global
-    print("HasH")
     variable2=0
     if live_flag ==1:
         if ("Live_Stop" in request.POST):
@@ -201,17 +148,12 @@ def LiveView(request):
         list=[]
         time.sleep(1)
         live(live_n, live_p, live_number_of_lines, "a")
-        print("Harsh Hi")
         variable2 = 1
         for i in range(live_n):
-            # f = open("/home/harsh/PycharmProjects/CloudInit/anode%d" % (i + 1), "r")
             df = pandas.read_csv("anode%d.csv"%(i+1), sep=',')
             data = df.to_html()
-            print(data)
             list.append(i)
             data2.append((data, i))
-        print(data2)
-        print(len(data2))
 
         template = loader.get_template('live.html')
         context = {'data2': data2, 'variable2': variable2, 'list': list,
@@ -219,59 +161,6 @@ def LiveView(request):
         return HttpResponse(template.render(context, request))
     else:
         if request.method == "POST":
-            print(request)
-            # if request.POST["value_n"] :
-            #     value_n = request.POST["value_n"]
-            #     if value_n != "":
-            #         value_n = int(value_n)
-            #     print(value_n)
-            # if request.POST["value_p"]:
-            #
-            #     value_p = request.POST["value_p"]
-            #     if value_p != "":
-            #         value_p = int(value_p)
-            #     print(value_p)
-
-            # if ("Start" in request.POST) :
-            #     process = Thread(target=run_script, args=[value_n, value_p])
-            #     process.start()
-            #     threads.append(process)
-            #     print(threads)
-            #
-            # if ("Stop" in request.POST) and (live_flag != 1):
-            #     # os.killpg(os.getpgid(pro.pid), signal.SIGTERM)
-            #     proc1.kill()
-            #     os.system("rm -rf /home/harsh/PycharmProjects/CloudInit/log_simulator/")
-            #     print("####################STOPPED#######################")
-            #     stop = False
-            #     for process in threads:
-            #         process.join()
-            #
-            # if ("Print" in request.POST):
-            #     n_val = int(request.POST["n"])
-            #     p_val = int(request.POST["p"])
-            #     pattern = request.POST["pattern"]
-            #     number_lines = int(request.POST["number_of_lines"])
-            #     headTen(n_val, p_val, number_lines, pattern, "/home/harsh/PycharmProjects/CloudInit/log.txt")
-            #     f = open("/home/harsh/PycharmProjects/CloudInit/log.txt", "r")
-            #     data = f.read()
-            #     variable = 1
-
-            # variable3=0
-            # data_time=""
-            # if ("Time_data" in request.POST):
-            #     print("Harsh_date")
-            #     n_time = int(request.POST['n_time'])
-            #     p_time = int(request.POST['p_time'])
-            #     start = request.POST['date_start']
-            #     end = request.POST['date_end']
-            #     print("Harsh_date")
-            #     TimeData(n_time, p_time, start, end)
-            #     print("Harsh_date2")
-            #     f=open("/home/harsh/PycharmProjects/CloudInit/time.txt", "r")
-            #     data_time=f.read()
-            #     variable3 = 1
-            #     print(data_time)
 
             data2 = []
             list = []
@@ -279,27 +168,18 @@ def LiveView(request):
             if ("Print_live" in request.POST):
                 live_n = n_global
                 live_p = int(request.POST["p_live"])
-                print(request.POST)
-                print(live_pattern)
                 live_number_of_lines = int(request.POST["live_number_of_lines"])
                 live_flag = 1
                 if live_flag == 1:
                     time.sleep(1)
                     live(live_n, live_p, live_number_of_lines,  "a")
-                    print("Harsh Hi")
                     variable = 0
                     variable2 = 1
                     for i in range(live_n):
-                        # f = open("/home/harsh/PycharmProjects/CloudInit/anode%d" % (i + 1), "r")
-                        # list.append(i)
-                        # data = f.read()
-                        # data2.append((data, i))
                         df = pandas.read_csv("anode%d.csv" % (i + 1), sep=',')
                         data = df.to_html()
                         list.append(i)
                         data2.append((data, i))
-                    print(data2)
-                    print(len(data2))
 
 
                     template = loader.get_template('live.html')
@@ -323,21 +203,15 @@ def TimeView(request):
     global n_global
     print(request.POST)
     if (request.method == "POST"):
-        print("Harsh_date")
         n_time = int(request.POST['n_time'])
         p_time = int(request.POST['p_time'])
         start = request.POST['date_start']
         end = request.POST['date_end']
-        print("Harsh_date")
         live(n_global,p_time,1000,"a")
         TimeData(n_time, p_time, start, end)
-        print("Harsh_date2")
-        # f = open("/home/harsh/PycharmProjects/CloudInit/time.txt", "r")
-        # data_time = f.read()
         df = pandas.read_csv("time.csv", sep=',')
         data_time = df.to_html()
         variable3 = 1
-        # print(data_time)
 
         template = loader.get_template('time.html')
         context = {'variable3': variable3, 'data_time': data_time,
@@ -435,9 +309,7 @@ def timeline(n,p,num):
 
 
 
-# file_path1 = '/home/harsh/Downloads/log_simulator/'
-# file_path2 = '/home/keshav/cloudinittemp/log_simulator/'
-# file_path3 = '/home/snehal/cloudinit/log_simulator/'
+
 
 
 def process_counts(n, process, num, extra):
@@ -483,48 +355,18 @@ def barplot(x, y, i, num):
     plt.close()
 
 
-# def tail(fi, n):
-#     f = open(fi, 'r')
-#     assert n >= 0
-#     pos, lines = n + 1, []
-#     while len(lines) <= n:
-#         try:
-#             f.seek(-pos, 2)
-#         except IOError:
-#             f.seek(0)
-#             break
-#         finally:
-#             lines = list(f)
-#         pos *= 2
-#     return lines[-n:]
 
 
 
-
-# def work():
-#     sched = BackgroundScheduler()
-#     # sched.add_job(IndexView('POST'), 'interval', seconds = 1)
-#     if live_flag == 1:
-#         print("Harsh Keshav")
-#         sched.add_job(IndexView(req), 'interval', seconds=3)
-#         print("Harsh Keshav")
-#         sched.start()
 
 
 
 def run_script(n,p):
     global proc1
     proc1 = subprocess.Popen("python2 log_simulator.zip -n %d -p %d" %(n,p), shell=True)
-    # pro = subprocess.Popen("python2 /home/harsh/PycharmProjects/CloudInit/log_simulator.zip -n %d -p %d" %(n,p), stdout=subprocess.PIPE,
-    #                        shell=True, preexec_fn=os.setsid)
-
-      # Send the signal to all the process groups
 
 def headTen(node, process, num, pattern, outputfilename):
-    # node=input('Enter node number:')
-    # process=input('Enter process number:')
     filename = 'log_simulator/HackNode' + str(node) + "/Process" + str(process) + ".log"
-    # pattern = "ERROR"
     FO = open(filename, 'r')
     FR = open(outputfilename, 'w')
     count = 0
@@ -617,7 +459,6 @@ def live(n, process, num, outputfilename):
         to_print = "".join(tail(filename, num))
         to_print = to_print.split("\n")
         count = 0
-        flag = 0
         for x in to_print:
             count += 1
             if ((re.match("^\d", x) == None)):
@@ -678,25 +519,8 @@ def tail(fi, n):
 
 
 
-# def tail(fi, n):
-#     f=open(fi,'r')
-#     assert n >= 0
-#     pos, lines = n+1, []
-#     while len(lines) <= n:
-#         try:
-#             f.seek(-pos, 2)
-#         except IOError:
-#             f.seek(0)
-#             break
-#         finally:
-#             lines = list(f)
-#         pos *= 2
-#     return lines[-n:]
-
 
 def TimeData(n,p,start,end):
-   # startDate = "2019-03-03 06:14:36"
-    #endDate = "2019-03-03 06:14:46"
     startDate=start
     endDate=end
     print(startDate)
@@ -708,46 +532,15 @@ def TimeData(n,p,start,end):
         FR = open("time.csv", "w")
         FR.write("Date,Timestamp,Tag,File,Exception" + "\n")
         FR.close()
-        print("Harsh-1")
         for line in fh.readlines():
             match = date_re.search(line)
-            # print("Harsh0")
-            # print(match.group(1))
             if match is not None:
-                print("Harsh1")
                 matchDate = match.group(1)
-                print("Harsh2")
                 if matchDate >= startDate and matchDate <= endDate:
-                    print("Harsh3")
                     FR = open("time.csv", 'a+')
                     t = line.split(",")
-                    a = " ".join(t[4:])
-                    b = ",".join(t[0:3])
-                    toprint = b + "," + a
+
                     FR.write(line)
-                    # print(toprint)
 
 
-    # date_re = re.compile(r'(\d+-\d+-\d+ \d+:\d+:\d+)')
-    # with open("/home/harsh/PycharmProjects/CloudInit/log_simulator/HackNode%d/Process%d.log"%(n,p), "r") as fh:
-    #     print("Harsh")
-    #     FR = open("time.txt", "w")
-    #     FR.write("")
-    #     for line in fh.readlines():
-    #         match = date_re.search(line)
-    #
-    #         if match is not None:
-    #             matchDate = match.group(1)
-    #             print("Harsh")
-    #             if matchDate >= startDate and matchDate <= endDate:
-    #                 print("Keshav")
-    #                 FR = open("/home/harsh/PycharmProjects/CloudInit/time.txt", "a+")
-    #                 FR.write(line)
-    # def work(url, result):
-    #     header = {"Authorization": "ac94e06dfaac68485bd7620ad519fe19aac84e69"}
-    #     response = requests.get(url=url, headers=header)
-    #     print(response)
-    #     data = response.json()
-    #     result.append(data['total_clicks'])
-    #     return True
-   
+
