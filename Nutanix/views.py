@@ -23,7 +23,7 @@ live_pattern=None
 req = None
 n_global=None
 p_global=None
-
+running_status=0
 def IndexView(request):
     global stop
     global threads
@@ -36,6 +36,7 @@ def IndexView(request):
     global n_global
     global proc1
     global p_global
+    global running_status
     variable=0
     variable2=0
     data=""
@@ -90,6 +91,7 @@ def IndexView(request):
                 process.start()
                 threads.append(process)
                 print(threads)
+                running_status=1
 
             if ("Stop" in request.POST) and (live_flag != 1):
                 while(os.path.isdir('log_simulator')):
@@ -99,6 +101,7 @@ def IndexView(request):
                 stop = False
                 for process in threads:
                     process.join()
+                running_status=0
 
             if ("Print" in request.POST):
                 n_val = int(request.POST["n"])
@@ -115,14 +118,14 @@ def IndexView(request):
 
 
             template = loader.get_template('index.html')
-            context = {'variable': variable, 'data': data, 'data2': data2, 'variable2': variable2, 'list': list
+            context = {'variable': variable, 'data': data, 'data2': data2, 'variable2': variable2, 'list': list, 'running_status':running_status,
                        }
             return HttpResponse(template.render(context, request))
 
         else:
 
             template = loader.get_template('index.html')
-            context = {'variable': variable, 'data': data, 'variable2': variable2,
+            context = {'variable': variable, 'data': data, 'variable2': variable2, 'running_status':running_status,
                           }
             return HttpResponse(template.render(context, request))
 
@@ -541,6 +544,3 @@ def TimeData(n,p,start,end):
                     t = line.split(",")
 
                     FR.write(line)
-
-
-
