@@ -41,7 +41,7 @@ A step by step series of examples that tell you how to get a development env run
 Clone the repo
 
 ```
-git clone https://github.com/SnehalRaj/LogAnalyser/.git
+git clone https://github.com/SnehalRaj/LogAnalyser.git
 ```
 create and start a virtual environment
 
